@@ -1,9 +1,13 @@
+/**
+ * initDb.js
+ * Inicialisation of the Data Base
+ * */
 "use strict";
 
 require("dotenv").config();
 
 const { askUser } = require("./lib/utils");
-const { mongoose, Ads, User } = require("./models");
+const { mongoose, Ads, Users } = require("./models");
 const { connectMongoose } = require("./lib/connectMongoose");
 
 const ADS_JSON = "./ads.json";
@@ -18,14 +22,14 @@ async function main() {
     "Are you sure you want to empty DB and load initial data? (no) "
   );
   if (answer.toLowerCase() !== "yes") {
-    console.log("DB init aborted! nothing has been done");
+    console.log("DB init aborted! Nothing has been done");
     return process.exit(0);
   }
 
-  // Init our models
+  // Init our models. Collections Users and Adverts will delete and loade
   const adsResult = await initAds(ADS_JSON);
   console.log(
-    `\nAds: Deleted ${adsResult.deletedCount}, loaded ${adsResult.loadedCount} from ${ADS_JSON}`
+    `\nAdverts: Deleted ${adsResult.deletedCount}, loaded ${adsResult.loadedCount} from ${ADS_JSON}`
   );
 
   const usersResult = await initUsers();
@@ -46,17 +50,19 @@ async function initAds(fichero) {
 }
 
 async function initUsers() {
-  const { deletedCount } = await User.deleteMany();
-  const loadedCount = await User.insertMany([
+  const { deletedCount } = await Users.deleteMany();
+  const loadedCount = await Users.insertMany([
     {
-      name: "user",
+      name: "userAnonymous",
       email: "user@example.com",
-      password: User.hashPassword("1234"),
+      typeUser: "anonymous",
+      password: Users.hashPassword("1234"), //TODO
     },
     {
-      name: "user2",
+      name: "userWallaclone",
       email: "user2@example.com",
-      password: User.hashPassword("4321"),
+      typeUser: "userWallaclone",
+      password: Users.hashPassword("4321"), //TODO
     },
   ]);
   return { deletedCount, loadedCount };

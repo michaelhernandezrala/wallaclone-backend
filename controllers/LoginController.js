@@ -1,7 +1,7 @@
 "use strict";
 
 const jwt = require("jsonwebtoken");
-const { User } = require("../models");
+const { Users } = require("../models/Users");
 class LoginController {
   index(req, res, next) {
     res.locals.error = "";
@@ -13,7 +13,7 @@ class LoginController {
       const { name, password } = req.body;
 
       // look for the user into the DB
-      const user = await User.findOne({ name });
+      const user = await Users.findOne({ name });
 
       // si no lo encuentro o no coincide la contraseña --> error
       if (!user || !(await user.comparePassword(password))) {
@@ -61,7 +61,7 @@ class LoginController {
       const { name, password } = req.body;
 
       // buscar el usuario en la BD
-      const user = await User.findOne({ name });
+      const user = await Users.findOne({ name });
 
       // si no lo encuentro o no coincide la contraseña --> error
       if (!user || !(await user.comparePassword(password))) {

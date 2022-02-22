@@ -4,9 +4,10 @@ const mongoose = require("mongoose");
 const fs = require("fs-extra");
 const path = require("path");
 const cote = require("cote");
+const { ADDRGETNETWORKPARAMS } = require("dns");
 const fsPromises = require("fs").promises;
 
-const { IMAGE_URL_BASE_PATH } = process.env;
+const { IMAGE_URL_BASE_PATH } = process.env; //TODO
 
 const thumbnailRequester = new cote.Requester(
   {
@@ -59,16 +60,16 @@ adsSchema.statics.list = async function (
   includeTotal,
   cb
 ) {
-  const query = Anuncio.find(filters);
+  const query = Ads.find(filters);
   query.sort(sortField);
   query.skip(startRow);
   query.limit(numRows);
-  // query.select('nombre venta');
+  // query.select('name sell');
 
   const result = {};
 
   if (includeTotal) {
-    result.total = await Anuncio.count();
+    result.total = await ADDRGETNETWORKPARAMS.count();
   }
   result.rows = await query.exec();
 

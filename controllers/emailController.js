@@ -3,7 +3,7 @@
  */
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
-import { User } from "../models/User";
+import { Users } from "../models/Users";
 import {
   transporter,
   getPasswordResetURL,
@@ -52,7 +52,7 @@ export const receiveNewPassword = (req, res) => {
   const { userId, token } = req.params;
   const { password } = req.body;
   // highlight-start
-  User.findOne({ _id: userId })
+  Users.findOne({ _id: userId })
     .then((user) => {
       const secret = user.password + "-" + user.createdAt;
       const payload = jwt.decode(token, secret);
@@ -61,7 +61,7 @@ export const receiveNewPassword = (req, res) => {
           if (err) return;
           bcrypt.hash(password, salt, function (err, hash) {
             if (err) return;
-            User.findOneAndUpdate({ _id: userId }, { password: hash })
+            Users.findOneAndUpdate({ _id: userId }, { password: hash })
               .then(() => res.status(202).json("Password changed accepted"))
               .catch((err) => res.status(500).json(err));
           });

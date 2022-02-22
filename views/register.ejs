@@ -1,5 +1,6 @@
 <!-- TODO: terminarlo -->
-<% include header %>
+<!-- register.ejs -->
+<% include _header %>
     <h1>__(Register on Wallaclone)</h1>
 
     <% include loader %>
@@ -32,7 +33,7 @@
                                     aria-describedby="emailHelp" placeholder="*********" value="" required />
                             </div>
                             <input type="submit" class="btn btn-primary" value="Add" />
-                            <a href="auth/register" class="btn btn-success ml-2">Sign up</a>
+                            <a href="../routes/api/register.js" class="btn btn-success ml-2">Sign up</a>
                         </form>
 
-                        <% include footer %>
+                        <% include _footer %>

@@ -7,21 +7,23 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const router = express.Router();
-const { User } = require("../../models");
+const { Users } = require("../../models/Users");
 
 // POST /auth/register
 router.post("/", async (req, res, next) => {
   try {
     const name = req.body.name;
     const email = req.body.email;
+    const typeUser = req.body.typeUser;
     const password = req.body.password;
 
-    const hashedPassword = User.hashPassword(password);
+    const hashedPassword = Users.hashPassword(password);
 
     // Check for user
-    const user = await User.findOne({
+    const user = await Users.findOne({
       name: name,
       email: email,
+      typeUser: typeUser,
       password: hashedPassword,
     });
 
@@ -53,7 +55,7 @@ router.post("/", async (req, res, next) => {
         if (err) {
           return next(err);
         }
-        // respondemos con un JWT
+        // Request with a JWT
         res.json({ ok: true, token: token });
       }
     );

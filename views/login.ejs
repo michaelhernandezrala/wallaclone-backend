@@ -1,4 +1,5 @@
-<% include header %>
+<!-- login.ejs -->
+<% include _header %>
     <h1>__(Login on Wallaclone)</h1>
 
     <% include loader %>
@@ -28,7 +29,7 @@
                             </div>
 
                             <input type="submit" class="btn btn-primary" value="Add" />
-                            <a href="auth/login" class="btn btn-success ml-2">Login</a>
+                            <a href="../routes/api/login.js" class="btn btn-success ml-2">Login</a>
                         </form>
 
-                        <% include footer %>
+                        <% include _footer %>

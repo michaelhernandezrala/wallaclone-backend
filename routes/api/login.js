@@ -7,7 +7,7 @@
 const express = require("express");
 const jwt = require("jsonwebtoken");
 const router = express.Router();
-const { User } = require("../../models");
+const { Users } = require("../../models/Users");
 
 // POST /auth/login
 router.post("/", async (req, res, next) => {
@@ -16,9 +16,9 @@ router.post("/", async (req, res, next) => {
     //const email = req.body.email;
     const password = req.body.password;
 
-    const hashedPassword = User.hashPassword(password);
+    const hashedPassword = Users.hashPassword(password);
 
-    const user = await User.findOne({
+    const user = await Users.findOne({
       name: name,
       //email: email,
       password: hashedPassword,
