@@ -9,7 +9,7 @@ var hash = require("hash.js");
 
 const userSchema = mongoose.Schema({
   name: { type: String, unique: true },
-  email: String,
+  email: { type: String, unique: true },
   typeUser: String, // anonymous or userWallaclone
   password: String,
 });
