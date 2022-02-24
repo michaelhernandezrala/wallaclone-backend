@@ -36,8 +36,8 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(i18n.init);
 
 // API
-app.use("/api/auth/register", require("./routes/api/register"));
-app.use("/api/auth/login", require("./routes/api/login"));
+app.use("/api/register", require("./routes/api/register"));
+app.use("/api/login", require("./routes/api/login"));
 //app.use("/api/ads", jwtAuth(), require("./routes/api/ads"));
 
 // Global Template variables
@@ -46,8 +46,8 @@ app.locals.typeUser = "anonymous"; // Luego se cambiará a userWallaclone cuando
 
 // Web
 app.use("/", require("./routes/index"));
-app.use("/auth/register", require("./routes/api/register"));
-app.use("/auth/login", require("./routes/api/login"));
+app.use("/register", require("./routes/api/register"));
+app.use("/login", require("./routes/api/login"));
 //app.use("/ads", require("./routes/ads"));
 
 // catch 404 and forward to error handler

@@ -1,2 +1,3 @@
 # wallaclone-backend
-## Backend of register, login, recoverPassword and logout.
+
+## Backend of register, login, recoverPassword and logout
