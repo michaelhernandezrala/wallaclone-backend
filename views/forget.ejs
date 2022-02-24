@@ -1,0 +1,41 @@
+<!-- TODO: Terminar -->
+<!-- forget.ejs -->
+<% include _header %>
+    <h1>__(Change Password)</h1>
+
+    <% include loader %>
+        <% if (messages.error) { %>
+            <p class="message_error">
+                <%- messages.error %>
+            </p>
+            <% } %>
+                <% if (messages.success) { %>
+                    <p class="message_success">
+                        <%- messages.success %>
+                    </p>
+                    <% } %>
+
+                        <div class="col-md-4 col-md-offset-4 form-card">
+
+                            <div class="form-group">
+                                <form id="form2" method="post">
+                                    <input type="text" name="email" placeholder="E-mail" required=""
+                                        class="form-control"><br />
+                                    <input type="password" name="password" placeholder="Password" required=""
+                                        class="form-control"><br />
+                                    <input type="password" name="passwordConf" placeholder="Confirm Password"
+                                        required="" class="form-control"><br />
+                                    <input type="submit" value="Change" class="btn btn-success">
+                                </form>
+                            </div>
+                            <div class="mssg bg-danger">
+                                <span id="check"></span>
+                            </div>
+                            <div id="LangTable"><a href="/login" id="aa"></a>
+                            </div>
+                            <div id="LangTable"><span>Go back to </span><a href="/">Register</a> or <a
+                                    href="/login">Login</a>
+                            </div>
+                        </div>
+
+                        <% include _footer %>

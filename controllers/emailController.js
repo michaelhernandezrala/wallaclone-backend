@@ -1,5 +1,5 @@
 /**
- * emailController.js
+ * EmailController.js
  */
 import jwt from "jsonwebtoken";
 import bcrypt from "bcryptjs";
