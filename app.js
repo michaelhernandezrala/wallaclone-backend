@@ -7,16 +7,14 @@ const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
 const jwtAuth = require("./lib/jwtAuth");
 
-require("dotenv").config(); // inicializamos variables de entrono desde el fichero .env
+require("dotenv").config(); 
 
 const i18n = require("./lib/i18nSetup");
 
-// Connect DB & register models
 require("./models");
 
 const app = express();
 
-// view engine setup
 app.set("views", path.join(__dirname, "views"));
 app.set("view engine", "ejs");
 
@@ -37,6 +35,7 @@ app.locals.title = "Wallaclone";
 app.use("/api/register", require("./routes/api/register"));
 app.use("/api/adverts", require('./routes/api/adverts'));
 //app.use("/api/ads", jwtAuth(), require("./routes/api/ads"));
+app.use("/api/new-advert", require("./routes/api/manage-adverts"))
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {

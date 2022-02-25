@@ -1,20 +1,85 @@
 {
-    "adverts":[
+    "adverts": [
         {
-            "name": "Guitarra",
-            "sell": false,
-            "price": 150,
-            "tags": ["lifestyle", "work"],
-            "photo": "guitarra.jpg",
-            
+            "name" : "Patinete",
+            "sale" : "true",
+            "price" : 350,
+            "tags" : [
+                    "lifestyle",
+                    "motor"
+            ],
+            "photo" : "patinete-electrico.jpg"
         },
         {
-            "name": "Patinete",
-            "sell": true,
-            "price": 200,
-            "tags": ["motor", "lifestyle"],
-            "photo": "./images/patinete.jpg",
-            
+            "name" : "Guitarra",
+            "sale" : "false",
+            "price" : 150,
+            "tags" : [
+                    "lifestyle",
+                    "work"
+            ],
+            "photo" : "guitarra.jpg"
+        },
+        {
+            "name" : "Motocicleta",
+            "sale" : "true",
+            "price" : 400,
+            "tags" : [
+                    "lifestyle",
+                    "motor"
+            ],
+            "photo" : "motocicleta.jpg"
+        },
+        {
+            "name" : "MacBook Air Apple 13",
+            "sale" : "true",
+            "price" : 900,
+            "tags" : [
+                    "lifestyle",
+                    "mobile",
+                    "work"
+            ],
+            "photo" : "mcbook air 13.jpg"
+        },
+        {
+            "name" : "Silla de escritorio",
+            "sale" : "false",
+            "price" : 200,
+            "tags" : [
+                    "work"
+            ],
+            "photo" : "silla-escritorio.jpg"
+        },
+        {
+            "name" : "Cinta de correr",
+            "sale" : "true",
+            "price" : 780,
+            "tags" : [
+                    "lifestyle"
+            ],
+            "photo" : "cinta-correr.jpg"
+        },
+        {
+            "name" : "Nintendo Switch",
+            "sale" : "false",
+            "price" : 340,
+            "tags" : [
+                    "lifestyle",
+                    "mobile"
+            ],
+            "photo" : "nintendo-switch.jpg"
+        },
+        {
+        
+            "name" : "Sofa",
+            "sale" : "true",
+            "price" : 670,
+            "tags" : [
+                    "lifestyle"
+            ],
+            "photo" : "sofa.jpg"
         }
+
     ]
 }
+
