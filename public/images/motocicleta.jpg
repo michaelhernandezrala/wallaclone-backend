@@ -1,0 +1,1911 @@
+<!DOCTYPE html>
+<html lang="es" prefix="og: https://ogp.me/ns#">
+<head>
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-6575473-2" type="43838a79995c9a311b940e2c-text/javascript"></script>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+		window.dataLayer = window.dataLayer || [];
+		function gtag(){dataLayer.push(arguments);}
+		gtag('js', new Date());
+		gtag('config', 'UA-6575473-2');
+	</script>
+<script type="43838a79995c9a311b940e2c-text/javascript">window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+	else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+	var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+	if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+  	var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("def1b615-7169-48fe-a17e-5a367a1b7fcd")})();</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="icon" type="image/ico" href="https://www.formulamoto.es/wp-content/themes/formulamoto/img/favicon.ico" />
+<link rel="profile" href="https://gmpg.org/xfn/11">
+
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+<script data-cfasync="false" type="text/javascript">var ewww_webp_supported=!1;function check_webp_feature(A,e){if(e=void 0!==e?e:function(){},ewww_webp_supported)e(ewww_webp_supported);else{var w=new Image;w.onload=function(){ewww_webp_supported=0<w.width&&0<w.height,e&&e(ewww_webp_supported)},w.onerror=function(){e&&e(!1)},w.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA=="}[A]}}check_webp_feature("alpha");</script><script data-cfasync="false" type="text/javascript">var Arrive=function(c,e,w){"use strict";if(c.MutationObserver&&"undefined"!=typeof HTMLElement){var r,t,a=0,u=(r=HTMLElement.prototype.matches||HTMLElement.prototype.webkitMatchesSelector||HTMLElement.prototype.mozMatchesSelector||HTMLElement.prototype.msMatchesSelector,{matchesSelector:function(e,t){return e instanceof HTMLElement&&r.call(e,t)},addMethod:function(e,t,r){var a=e[t];e[t]=function(){return r.length==arguments.length?r.apply(this,arguments):"function"==typeof a?a.apply(this,arguments):void 0}},callCallbacks:function(e,t){t&&t.options.onceOnly&&1==t.firedElems.length&&(e=[e[0]]);for(var r,a=0;r=e[a];a++)r&&r.callback&&r.callback.call(r.elem,r.elem);t&&t.options.onceOnly&&1==t.firedElems.length&&t.me.unbindEventWithSelectorAndCallback.call(t.target,t.selector,t.callback)},checkChildNodesRecursively:function(e,t,r,a){for(var i,n=0;i=e[n];n++)r(i,t,a)&&a.push({callback:t.callback,elem:i}),0<i.childNodes.length&&u.checkChildNodesRecursively(i.childNodes,t,r,a)},mergeArrays:function(e,t){var r,a={};for(r in e)e.hasOwnProperty(r)&&(a[r]=e[r]);for(r in t)t.hasOwnProperty(r)&&(a[r]=t[r]);return a},toElementsArray:function(e){return void 0===e||"number"==typeof e.length&&e!==c||(e=[e]),e}}),d=((t=function(){this._eventsBucket=[],this._beforeAdding=null,this._beforeRemoving=null}).prototype.addEvent=function(e,t,r,a){var i={target:e,selector:t,options:r,callback:a,firedElems:[]};return this._beforeAdding&&this._beforeAdding(i),this._eventsBucket.push(i),i},t.prototype.removeEvent=function(e){for(var t,r=this._eventsBucket.length-1;t=this._eventsBucket[r];r--)if(e(t)){this._beforeRemoving&&this._beforeRemoving(t);var a=this._eventsBucket.splice(r,1);a&&a.length&&(a[0].callback=null)}},t.prototype.beforeAdding=function(e){this._beforeAdding=e},t.prototype.beforeRemoving=function(e){this._beforeRemoving=e},t),o=function(i,n){var o=new d,l=this,s={fireOnAttributesModification:!1};return o.beforeAdding(function(t){var e,r=t.target;r!==c.document&&r!==c||(r=document.getElementsByTagName("html")[0]),e=new MutationObserver(function(e){n.call(this,e,t)});var a=i(t.options);e.observe(r,a),t.observer=e,t.me=l}),o.beforeRemoving(function(e){e.observer.disconnect()}),this.bindEvent=function(e,t,r){t=u.mergeArrays(s,t);for(var a=u.toElementsArray(this),i=0;i<a.length;i++)o.addEvent(a[i],e,t,r)},this.unbindEvent=function(){var r=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<r.length;t++)if(this===w||e.target===r[t])return!0;return!1})},this.unbindEventWithSelectorOrCallback=function(r){var e,a=u.toElementsArray(this),i=r;e="function"==typeof r?function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.callback===i)return!0;return!1}:function(e){for(var t=0;t<a.length;t++)if((this===w||e.target===a[t])&&e.selector===r)return!0;return!1},o.removeEvent(e)},this.unbindEventWithSelectorAndCallback=function(r,a){var i=u.toElementsArray(this);o.removeEvent(function(e){for(var t=0;t<i.length;t++)if((this===w||e.target===i[t])&&e.selector===r&&e.callback===a)return!0;return!1})},this},i=new function(){var s={fireOnAttributesModification:!1,onceOnly:!1,existing:!1};function n(e,t,r){return!(!u.matchesSelector(e,t.selector)||(e._id===w&&(e._id=a++),-1!=t.firedElems.indexOf(e._id))||(t.firedElems.push(e._id),0))}var c=(i=new o(function(e){var t={attributes:!1,childList:!0,subtree:!0};return e.fireOnAttributesModification&&(t.attributes=!0),t},function(e,i){e.forEach(function(e){var t=e.addedNodes,r=e.target,a=[];null!==t&&0<t.length?u.checkChildNodesRecursively(t,i,n,a):"attributes"===e.type&&n(r,i)&&a.push({callback:i.callback,elem:r}),u.callCallbacks(a,i)})})).bindEvent;return i.bindEvent=function(e,t,r){t=void 0===r?(r=t,s):u.mergeArrays(s,t);var a=u.toElementsArray(this);if(t.existing){for(var i=[],n=0;n<a.length;n++)for(var o=a[n].querySelectorAll(e),l=0;l<o.length;l++)i.push({callback:r,elem:o[l]});if(t.onceOnly&&i.length)return r.call(i[0].elem,i[0].elem);setTimeout(u.callCallbacks,1,i)}c.call(this,e,t,r)},i},l=new function(){var a={};function i(e,t){return u.matchesSelector(e,t.selector)}var n=(l=new o(function(){return{childList:!0,subtree:!0}},function(e,a){e.forEach(function(e){var t=e.removedNodes,r=[];null!==t&&0<t.length&&u.checkChildNodesRecursively(t,a,i,r),u.callCallbacks(r,a)})})).bindEvent;return l.bindEvent=function(e,t,r){t=void 0===r?(r=t,a):u.mergeArrays(a,t),n.call(this,e,t,r)},l};e&&g(e.fn),g(HTMLElement.prototype),g(NodeList.prototype),g(HTMLCollection.prototype),g(HTMLDocument.prototype),g(Window.prototype);var n={};return s(i,n,"unbindAllArrive"),s(l,n,"unbindAllLeave"),n}function s(e,t,r){u.addMethod(t,r,e.unbindEvent),u.addMethod(t,r,e.unbindEventWithSelectorOrCallback),u.addMethod(t,r,e.unbindEventWithSelectorAndCallback)}function g(e){e.arrive=i.bindEvent,s(i,e,"unbindArrive"),e.leave=l.bindEvent,s(l,e,"unbindLeave")}}(window,"undefined"==typeof jQuery?null:jQuery,void 0),ewww_webp_supported=!1;function check_webp_feature(e,t){if(ewww_webp_supported)t(ewww_webp_supported);else{var r=new Image;r.onload=function(){ewww_webp_supported=0<r.width&&0<r.height,t(ewww_webp_supported)},r.onerror=function(){t(!1)},r.src="data:image/webp;base64,"+{alpha:"UklGRkoAAABXRUJQVlA4WAoAAAAQAAAAAAAAAAAAQUxQSAwAAAARBxAR/Q9ERP8DAABWUDggGAAAABQBAJ0BKgEAAQAAAP4AAA3AAP7mtQAAAA==",animation:"UklGRlIAAABXRUJQVlA4WAoAAAASAAAAAAAAAAAAQU5JTQYAAAD/////AABBTk1GJgAAAAAAAAAAAAAAAAAAAGQAAABWUDhMDQAAAC8AAAAQBxAREYiI/gcA"}[e]}}function ewwwLoadImages(e){if(e){for(var t=document.querySelectorAll(".batch-image img, .image-wrapper a, .ngg-pro-masonry-item a, .ngg-galleria-offscreen-seo-wrapper a"),r=0,a=t.length;r<a;r++)ewwwAttr(t[r],"data-src",t[r].getAttribute("data-webp")),ewwwAttr(t[r],"data-thumbnail",t[r].getAttribute("data-webp-thumbnail"));for(r=0,a=(n=document.querySelectorAll(".rev_slider ul li")).length;r<a;r++){ewwwAttr(n[r],"data-thumb",n[r].getAttribute("data-webp-thumb"));for(var i=1;i<11;)ewwwAttr(n[r],"data-param"+i,n[r].getAttribute("data-webp-param"+i)),i++}var n;for(r=0,a=(n=document.querySelectorAll(".rev_slider img")).length;r<a;r++)ewwwAttr(n[r],"data-lazyload",n[r].getAttribute("data-webp-lazyload"));var o=document.querySelectorAll("div.woocommerce-product-gallery__image");for(r=0,a=o.length;r<a;r++)ewwwAttr(o[r],"data-thumb",o[r].getAttribute("data-webp-thumb"))}var l=document.querySelectorAll("video");for(r=0,a=l.length;r<a;r++)ewwwAttr(l[r],"poster",e?l[r].getAttribute("data-poster-webp"):l[r].getAttribute("data-poster-image"));var s=document.querySelectorAll("img.ewww_webp_lazy_load");for(r=0,a=s.length;r<a;r++){if(e){ewwwAttr(s[r],"data-lazy-srcset",s[r].getAttribute("data-lazy-srcset-webp")),ewwwAttr(s[r],"data-srcset",s[r].getAttribute("data-srcset-webp")),ewwwAttr(s[r],"data-lazy-src",s[r].getAttribute("data-lazy-src-webp")),ewwwAttr(s[r],"data-src",s[r].getAttribute("data-src-webp")),ewwwAttr(s[r],"data-orig-file",s[r].getAttribute("data-webp-orig-file")),ewwwAttr(s[r],"data-medium-file",s[r].getAttribute("data-webp-medium-file")),ewwwAttr(s[r],"data-large-file",s[r].getAttribute("data-webp-large-file"));var c=s[r].getAttribute("srcset");null!=c&&!1!==c&&c.includes("R0lGOD")&&ewwwAttr(s[r],"src",s[r].getAttribute("data-lazy-src-webp"))}s[r].className=s[r].className.replace(/\bewww_webp_lazy_load\b/,"")}var w=document.querySelectorAll(".ewww_webp");for(r=0,a=w.length;r<a;r++)e?(ewwwAttr(w[r],"srcset",w[r].getAttribute("data-srcset-webp")),ewwwAttr(w[r],"src",w[r].getAttribute("data-src-webp")),ewwwAttr(w[r],"data-orig-file",w[r].getAttribute("data-webp-orig-file")),ewwwAttr(w[r],"data-medium-file",w[r].getAttribute("data-webp-medium-file")),ewwwAttr(w[r],"data-large-file",w[r].getAttribute("data-webp-large-file")),ewwwAttr(w[r],"data-large_image",w[r].getAttribute("data-webp-large_image")),ewwwAttr(w[r],"data-src",w[r].getAttribute("data-webp-src"))):(ewwwAttr(w[r],"srcset",w[r].getAttribute("data-srcset-img")),ewwwAttr(w[r],"src",w[r].getAttribute("data-src-img"))),w[r].className=w[r].className.replace(/\bewww_webp\b/,"ewww_webp_loaded");window.jQuery&&jQuery.fn.isotope&&jQuery.fn.imagesLoaded&&(jQuery(".fusion-posts-container-infinite").imagesLoaded(function(){jQuery(".fusion-posts-container-infinite").hasClass("isotope")&&jQuery(".fusion-posts-container-infinite").isotope()}),jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").imagesLoaded(function(){jQuery(".fusion-portfolio:not(.fusion-recent-works) .fusion-portfolio-wrapper").isotope()}))}function ewwwWebPInit(e){ewwwLoadImages(e),ewwwNggLoadGalleries(e),document.arrive(".ewww_webp",function(){ewwwLoadImages(e)}),document.arrive(".ewww_webp_lazy_load",function(){ewwwLoadImages(e)}),document.arrive("videos",function(){ewwwLoadImages(e)}),"loading"==document.readyState?document.addEventListener("DOMContentLoaded",ewwwJSONParserInit):("undefined"!=typeof galleries&&ewwwNggParseGalleries(e),ewwwWooParseVariations(e))}function ewwwAttr(e,t,r){null!=r&&!1!==r&&e.setAttribute(t,r)}function ewwwJSONParserInit(){"undefined"!=typeof galleries&&check_webp_feature("alpha",ewwwNggParseGalleries),check_webp_feature("alpha",ewwwWooParseVariations)}function ewwwWooParseVariations(e){if(e)for(var t=document.querySelectorAll("form.variations_form"),r=0,a=t.length;r<a;r++){var i=t[r].getAttribute("data-product_variations"),n=!1;try{for(var o in i=JSON.parse(i))void 0!==i[o]&&void 0!==i[o].image&&(void 0!==i[o].image.src_webp&&(i[o].image.src=i[o].image.src_webp,n=!0),void 0!==i[o].image.srcset_webp&&(i[o].image.srcset=i[o].image.srcset_webp,n=!0),void 0!==i[o].image.full_src_webp&&(i[o].image.full_src=i[o].image.full_src_webp,n=!0),void 0!==i[o].image.gallery_thumbnail_src_webp&&(i[o].image.gallery_thumbnail_src=i[o].image.gallery_thumbnail_src_webp,n=!0),void 0!==i[o].image.thumb_src_webp&&(i[o].image.thumb_src=i[o].image.thumb_src_webp,n=!0));n&&ewwwAttr(t[r],"data-product_variations",JSON.stringify(i))}catch(e){}}}function ewwwNggParseGalleries(e){if(e)for(var t in galleries){var r=galleries[t];galleries[t].images_list=ewwwNggParseImageList(r.images_list)}}function ewwwNggLoadGalleries(e){e&&document.addEventListener("ngg.galleria.themeadded",function(e,t){window.ngg_galleria._create_backup=window.ngg_galleria.create,window.ngg_galleria.create=function(e,t){var r=$(e).data("id");return galleries["gallery_"+r].images_list=ewwwNggParseImageList(galleries["gallery_"+r].images_list),window.ngg_galleria._create_backup(e,t)}})}function ewwwNggParseImageList(e){for(var t in e){var r=e[t];if(void 0!==r["image-webp"]&&(e[t].image=r["image-webp"],delete e[t]["image-webp"]),void 0!==r["thumb-webp"]&&(e[t].thumb=r["thumb-webp"],delete e[t]["thumb-webp"]),void 0!==r.full_image_webp&&(e[t].full_image=r.full_image_webp,delete e[t].full_image_webp),void 0!==r.srcsets)for(var a in r.srcsets)nggSrcset=r.srcsets[a],void 0!==r.srcsets[a+"-webp"]&&(e[t].srcsets[a]=r.srcsets[a+"-webp"],delete e[t].srcsets[a+"-webp"]);if(void 0!==r.full_srcsets)for(var i in r.full_srcsets)nggFSrcset=r.full_srcsets[i],void 0!==r.full_srcsets[i+"-webp"]&&(e[t].full_srcsets[i]=r.full_srcsets[i+"-webp"],delete e[t].full_srcsets[i+"-webp"])}return e}check_webp_feature("alpha",ewwwWebPInit);</script>
+
+<title>Las 20 motos nuevas más baratas del mercado 2020</title>
+<meta name="description" content="Entre la amplia oferta de modelos a la venta en 2020, recopilamos las 20 motocicletas (scooters y motos) más baratas para aprovechar las ventajas de los vehículos de dos ruedas en la nueva normalidad." />
+<meta name="robots" content="follow, index, max-snippet:-1, max-video-preview:-1, max-image-preview:large" />
+<link rel="canonical" href="https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html" />
+<meta property="og:locale" content="es_ES" />
+<meta property="og:type" content="article" />
+<meta property="og:title" content="Las 20 motos nuevas más baratas del mercado 2020" />
+<meta property="og:description" content="Entre la amplia oferta de modelos a la venta en 2020, recopilamos las 20 motocicletas (scooters y motos) más baratas para aprovechar las ventajas de los vehículos de dos ruedas en la nueva normalidad." />
+<meta property="og:url" content="https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html" />
+<meta property="og:site_name" content="FórmulaMoto" />
+<meta property="article:tag" content="Motos baratas" />
+<meta property="article:section" content="Reportajes" />
+<meta property="og:updated_time" content="2021-08-23T13:54:01+02:00" />
+<meta property="og:image" content="https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g.jpg" />
+<meta property="og:image:secure_url" content="https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g.jpg" />
+<meta property="og:image:width" content="1200" />
+<meta property="og:image:height" content="800" />
+<meta property="og:image:alt" content="Motos más baratas" />
+<meta property="og:image:type" content="image/jpeg" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Las 20 motos nuevas más baratas del mercado 2020" />
+<meta name="twitter:description" content="Entre la amplia oferta de modelos a la venta en 2020, recopilamos las 20 motocicletas (scooters y motos) más baratas para aprovechar las ventajas de los vehículos de dos ruedas en la nueva normalidad." />
+<meta name="twitter:image" content="https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g.jpg" />
+
+<link href='https://fonts.gstatic.com' crossorigin rel='preconnect' />
+<link rel="alternate" type="application/rss+xml" title="FórmulaMoto &raquo; Feed" href="https://www.formulamoto.es/feed/" />
+<link rel="alternate" type="application/rss+xml" title="FórmulaMoto &raquo; Feed de los comentarios" href="https://www.formulamoto.es/comments/feed/" />
+<link rel='stylesheet' id='wp-block-library-css' href='https://www.formulamoto.es/wp-includes/css/dist/block-library/style.min.css?ver=5.8.1' type='text/css' media='all' />
+<link rel='stylesheet' id='understrap-styles-css' href='https://www.formulamoto.es/wp-content/themes/formulamoto/css/theme.min.css?ver=1.0.0.1643025346' type='text/css' media='all' />
+<link rel='stylesheet' id='slb_core-css' href='https://www.formulamoto.es/wp-content/plugins/simple-lightbox/client/css/app.css?ver=2.8.1' type='text/css' media='all' />
+<script type="43838a79995c9a311b940e2c-text/javascript" src='https://www.formulamoto.es/wp-content/plugins/singular-pwa/js/pwa.js?ver=5.8.1' id='pwa-js'></script>
+<script type="43838a79995c9a311b940e2c-text/javascript" src='https://www.formulamoto.es/wp-includes/js/jquery/jquery.min.js?ver=3.6.0' id='jquery-core-js'></script>
+<script type="43838a79995c9a311b940e2c-text/javascript" src='https://www.formulamoto.es/wp-includes/js/jquery/jquery-migrate.min.js?ver=3.3.2' id='jquery-migrate-js'></script>
+<link rel='shortlink' href='https://www.formulamoto.es/?p=53987' />
+<script type="application/ld+json">{
+    "@context": "http://schema.org",
+    "@type": "ItemList",
+    "itemListElement": [
+        {
+            "@type": "SiteNavigationElement",
+            "position": 1,
+            "name": "Marcas y modelos",
+            "url": "https://www.formulamoto.es/marcas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 2,
+            "name": "Precios de motos nuevas",
+            "url": "https://motosnuevas.formulamoto.es/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 3,
+            "name": "Preparaciones de motos",
+            "url": "https://www.formulamoto.es/preparaciones-especiales/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 4,
+            "name": "Motos de ocasi\u00f3n",
+            "url": "https://motossegundamano.formulamoto.es/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 5,
+            "name": "Rutas y viajes en moto",
+            "url": "https://www.formulamoto.es/viajes-rutas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 6,
+            "name": "Competici\u00f3n",
+            "url": "https://www.formulamoto.es/zona-competicion/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 7,
+            "name": "Blogs y firmas",
+            "url": "https://www.formulamoto.es/firmas-blogs/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 8,
+            "name": "Pruebas",
+            "url": "https://www.formulamoto.es/pruebas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 9,
+            "name": "Novedades",
+            "url": "https://www.formulamoto.es/novedades/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 10,
+            "name": "Carn\u00e9 A2 Moto",
+            "url": "https://www.formulamoto.es/permisos-normativas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 11,
+            "name": "Equipamiento y accesorios",
+            "url": "https://www.formulamoto.es/equipamiento/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 12,
+            "name": "Seguridad",
+            "url": "https://www.formulamoto.es/seguridad/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 13,
+            "name": "Pilotos de leyenda",
+            "url": "https://www.formulamoto.es/pilotos-leyenda/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 14,
+            "name": "Motos y moteros",
+            "url": "https://www.formulamoto.es/motos-moteros/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 15,
+            "name": "Nuevos modelos",
+            "url": "https://www.formulamoto.es/nuevos-modelos/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 16,
+            "name": "Salones",
+            "url": "https://www.formulamoto.es/salones/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 17,
+            "name": "Pruebas de Alan Cathcart",
+            "url": "https://www.formulamoto.es/pruebas-alan-cathcart/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 18,
+            "name": "Prueba en ruta",
+            "url": "https://www.formulamoto.es/prueba-ruta/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 19,
+            "name": "Comparativas",
+            "url": "https://www.formulamoto.es/comparativas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 20,
+            "name": "Carnet de Moto/Carnet A2",
+            "url": "https://www.formulamoto.es/carnet-moto/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 21,
+            "name": "Concentraciones",
+            "url": "https://www.formulamoto.es/concentraciones-eventos/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 22,
+            "name": "Mujeres en moto",
+            "url": "https://www.formulamoto.es/mujeres-en-moto/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 23,
+            "name": "Multas",
+            "url": "https://www.formulamoto.es/multas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 24,
+            "name": "Trail",
+            "url": "https://www.formulamoto.es/trail/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 25,
+            "name": "Naked",
+            "url": "https://www.formulamoto.es/naked/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 26,
+            "name": "Retro",
+            "url": "https://www.formulamoto.es/retro/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 27,
+            "name": "Motos el\u00e9ctricas",
+            "url": "https://www.formulamoto.es/electrica/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 28,
+            "name": "Scooter",
+            "url": "https://www.formulamoto.es/scooter/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 29,
+            "name": "Motos 125",
+            "url": "https://www.formulamoto.es/125cc/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 30,
+            "name": "Scooter 125",
+            "url": "https://www.formulamoto.es/zona-scooter125/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 31,
+            "name": "Megascooter",
+            "url": "https://www.formulamoto.es/megascooter/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 32,
+            "name": "Motos con carnet de coche",
+            "url": "https://www.formulamoto.es/motos-carnet-coche/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 33,
+            "name": "Chollos-Ofertas",
+            "url": "https://www.formulamoto.es/chollos/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 34,
+            "name": "Seguro de Moto",
+            "url": "https://www.formulamoto.es/seguro-de-moto/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 35,
+            "name": "MotoGP",
+            "url": "https://www.formulamoto.es/moto-gp/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 36,
+            "name": "Superbike",
+            "url": "https://www.formulamoto.es/mundial-superbike/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 37,
+            "name": "Circuito de Jerez",
+            "url": "https://www.formulamoto.es/circuito-de-jerez/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 38,
+            "name": "Motocross",
+            "url": "https://www.formulamoto.es/motocross/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 39,
+            "name": "Dakar",
+            "url": "https://www.formulamoto.es/dakar/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 40,
+            "name": "Trial",
+            "url": "https://www.formulamoto.es/trial/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 41,
+            "name": "Enduro",
+            "url": "https://www.formulamoto.es/enduro/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 42,
+            "name": "Accesorios",
+            "url": "https://www.formulamoto.es/accesorios/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 43,
+            "name": "Cascos de moto",
+            "url": "https://www.formulamoto.es/cascos-de-moto/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 44,
+            "name": "Dainese-AGV",
+            "url": "https://www.formulamoto.es/dainese-agv/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 45,
+            "name": "T\u00e9cnica",
+            "url": "https://www.formulamoto.es/tecnologia-accesorios/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 46,
+            "name": "Aver\u00edas de Moto",
+            "url": "https://www.formulamoto.es/averias-moto/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 47,
+            "name": "Consultorio",
+            "url": "https://www.formulamoto.es/consultorio/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 48,
+            "name": "Motos Cl\u00e1sicas",
+            "url": "https://www.formulamoto.es/zona-clasicas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 49,
+            "name": "Mantenimiento",
+            "url": "https://www.formulamoto.es/mantenimiento/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 50,
+            "name": "Reportajes",
+            "url": "https://www.formulamoto.es/reportajes/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 51,
+            "name": "Cl\u00e1sicas Espa\u00f1olas",
+            "url": "https://www.formulamoto.es/made-in-spain/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 52,
+            "name": "Concentraciones y eventos",
+            "url": "https://www.formulamoto.es/concentraciones-eventos-zona-clasicas/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 53,
+            "name": "Fotos",
+            "url": "https://www.formulamoto.es/fotos/"
+        },
+        {
+            "@type": "SiteNavigationElement",
+            "position": 54,
+            "name": "V\u00eddeos",
+            "url": "https://www.formulamoto.es/videos/"
+        }
+    ]
+}</script><script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html"
+    },
+    "headline": "Las 20 motos nuevas m\u00e1s baratas del mercado 2020",
+    "keywords": [
+        "Motos m\u00e1s baratas"
+    ],
+    "articleBody": "La situaci\u00f3n creada por la pandemia por coronavirus nos obliga a replantearnos el concepto de movilidad urbana. Condicionantes como el distanciamiento social y la seguridad sanitaria hacen del empleo de la motocicleta un instrumento eficaz y eficiente para afrontar esta nueva realidad. En el mercado encontramos un extenso elenco de modelos que se pueden conducir sin carn\u00e9 espec\u00edfico de moto, lo que facilita su acceso a la inmensa mayor\u00eda de la poblaci\u00f3n.\n\nEntre estos modelos hemos incluido los que disponen de un PVP m\u00e1s econ\u00f3mico. Todos ellos son scooters de 50 cc, 125 cc y el\u00e9ctricas y una moto de 125 a la venta en 2020. En cualquier caso, siempre te aconsejamos que analices si en tu zona geogr\u00e1fica estas marcas disponen de una red de talleres y concesionarios para el mantenimiento del veh\u00edculo. Tambi\u00e9n es aconsejable siempre tener la posibilidad de realizar una prueba en marcha con una unidad de pruebas, de modo que tengas la certeza de que se adapta a tus necesidades.\nPrecios, ofertas, fichas t\u00e9cnicas e im\u00e1genes de todos los modelos del mercado\nPor \u00faltimo, consejos recurrentes que no pueden ser jam\u00e1s dejados de lado. En toda \u00e9poca del a\u00f1o hay que rodar en moto o scooter protegido m\u00e1s all\u00e1 del casco obligatorio. Guantes, chaqueta, pantalones y calzado con protecciones incrementar\u00e1n de forma exponencial nuestra seguridad. Y, por supuesto, realizar siempre una conducci\u00f3n segura para sacar el mejor provecho de las ventajas de ahorro de tiempo y dinero, beneficios medioambientales y de todo tipo asociados al empleo de las dos ruedas motorizadas en la ciudad.\n\n\nKSR PANDORA 50 \u2013 1.099 \u20ac\nEl scooter m\u00e1s econ\u00f3mico del mercado en 2020 exhibe un patr\u00f3n deportivo por imagen y un peso por debajo de 100 kg para sus 3 CV de potencia. Para el tren trasero dispone de tambor en complemento al disco frontal\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/ksr/pandora-50/5315.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKSR SIRION 50 \u2013 1.299 \u20ac\nEst\u00e1 un paso por encima de su hermana Pandora. Sus condiciones m\u00e1s sport quedan patentes en un motor con 4 CV de potencia y el equipamiento de freno de disco tambi\u00e9n en el tren trasero.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/ksr/sirion-50/5320.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nLEXMOTO ECHO \u2013 1.399 \u20ac\nOtro representante de los scooters 50 de perfil deportivo, en su caso con motor de 2 CV y equipo de freno compuesto por disco delantero y tambor trasero. Sus llantas son de 10\".\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/lexmoto/echo/6231.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKSR CLASSIC&nbsp;50 \u2013 1.399 \u20ac\nMantiene un esquema muy retro, incluyendo los colores de sus fibras y la combinaci\u00f3n con el tono elegido para el asiento. Cuanto con combinaci\u00f3n de llantas de 12\" delante y 10\" detr\u00e1s, y motor de 4 CV.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/yamaha/mt-125-abs/4424.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nMITT 50 RT&nbsp;\u2013 1.495 \u20ac\nLa firma espa\u00f1ola mantiene un equilibrio entre modelo de corte retro e imagen deportiva con este 50 RT, dotado de llantas de 10\" y un motor con una potencia m\u00e1xima de 3 CV. Tambi\u00e9n se incluye como promoci\u00f3n seguro a terceros gratis.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/mitt/50-rt/7351.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nLEXMOTO NANO \u2013 1.499 \u20ac\nEs un scooter urbano con llantas de 12\" y amplia capacidad de carga gracias a su plataforma plana y extensa parrilla trasera. El motor dispone de 4 CV de potencia.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/lexmoto/nano/6226.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKEEWAY ZAHARA 50 \u2013 1.499 \u20ac\nEs el reflejo de la gama m\u00e1s cl\u00e1sica del fabricante chino propietario de Benelli. Combina llanta delantera de 12\" con trasera de 10\" y aporta motor de 3 CV de potencia. Es 200 \u20ac m\u00e1s barato que su equivalente en 125 cc.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/keeway/zahara-50/3957.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKEEWAY F-ACT 50 EVO \u2013 1.499 \u20ac\nDetalles como el dise\u00f1o en forma de tubarro de su silenciador o la imagen de sus llantas de aleaci\u00f3n, adem\u00e1s de su decoraci\u00f3n, reafirman la faceta m\u00e1s deportiva de este integrante del extenso cat\u00e1logo de scooters Keeway apto para su conducci\u00f3n con licencia de ciclomotor.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/keeway/f-act-50-evo/2490.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKEEWAY URBANBLADE \u2013 1.499 \u20ac\nHa sido el \u00faltimo modelo lanzado por la marca en este segmento de los scooters de 50 cc, un urbanita completo con llantas de 12\", discos de freno en ambos ejes y motor de 4 CV de potencia m\u00e1xima.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/keeway/urbanblade/6906.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKSR QUIP 50/125 \u2013 1.499/1.699 \u20ac\nEs la \u00faltima versi\u00f3n retro de la marca austriaca, desdoblado en dos modelos de 50 cc y 125 cc que se suman al extenso elenco de modelos de ambas cilindradas que ofrece la marca en nuestro pa\u00eds y con un precio siempre muy competitivo.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/ksr/quip-50/8357.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n\n\nE-BROH VENERDI \u2013 1.542 \u20ac\nSignifica el scooter con motor el\u00e9ctrico m\u00e1s barato del mercado. La marca radicada en Zaragoza dispone de un amplio cat\u00e1logo con esta tecnolog\u00eda. Su tiempo de recarga aproximado es de 6-8 horas.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/e-broh/venerdi/6581.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nE-BROH SPUMA \u2013 1.542 \u20ac\nOtra versi\u00f3n de ciclomotor el\u00e9ctrico de E-Broh, co una est\u00e9tica retro m\u00e1s convencional y equipo completo de frenos de disco. Garantiza una autonom\u00eda entre 25-30 km.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/e-broh/spuma/7906.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nSUMCO ROMMI 125I -1.575 \u20ac\nEs el primer scooter de 125 cc entre la lista de los m\u00e1s baratos del mercado espa\u00f1ol en 2020. Integrante del segmento retro de la marca, dispone de motor con 8 CV de potencia. Incluye llantas de 10\" y disco delantero m\u00e1s tambor trasero.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/sumco/rommi-125i/4997.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKSR SIRION 125 \u2013 1.599 \u20ac\nEs el 125 m\u00e1s econ\u00f3mico de la firma austriaca. Ejerce el papel de hermano mayor del modelo de 50 cc, con el que comparte gr\u00e1ficas y dise\u00f1o agresivo, y estando equipado con motor de 9 CV.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/ksr/sirion-125/5317.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKSR CLASSIC 125 \u2013 1.599 \u20ac\nAl igual que en el caso del Sirion, el Classic 125 es el pelda\u00f1o siguiente a la versi\u00f3n ciclomtoor hom\u00f3nima, en su caso con motor de 8 CV y dotaci\u00f3n de freno de disco trasero.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/ksr/classic-125/5321.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nUM MOTORCYCLES CHILL 50 \u2013 1.670 \u20ac\nLa marca norteamericana ofrece este scooter de tintes netamente retro tanto en 50 como en 125 cc. En la versi\u00f3n de inferior cilindrada equipa motor de 4 CV.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/um-motorcycles/chill-50/6911.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nMITT 125 RT \u2013 1.695 \u20ac\nLa firma radicada en Madrid dispone de este scooter 125 entre los m\u00e1s baratos del mercado actual. Exhibe elementos de sobresaliente calado retro como el asiento partido para pasajero y piloto. Su motor eleva su potencia hasta los 9 CV.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/mitt/125-rt/5826.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nKEEWAY ZAHARA 125 \u2013 1.699 \u20ac\nRepresentante en el \"octavo de litro\" del modelo con el mismo nombre en la categor\u00eda de 50 cc. Su motor alcanza una potencia de 8 CV.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/keeway/zahara-125/2866.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nRIEJU BYE BIKE \u2013 1.712 \u20ac\nPara los m\u00e1s nost\u00e1lgicos de los legendarios ciclomotores de anta\u00f1o como los Vespino, Derbi Variant, etc., la espa\u00f1ola Rieju comercializa este modelo con componentes desarrollados por la industria auxiliar que en su d\u00eda prove\u00eda a las ic\u00f3nicas Derbi. Sus llantas son de 17\" como las motos convencionales.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/rieju/bye-bike/4617.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n\nSUMCO ROCKET 125I \u2013 1.749 \u20ac\nEs la \u00fanica moto de 125 cc que acoge esta lista de las 20 motocicletas m\u00e1s baratas del mercado espa\u00f1ol en 2020. Se sit\u00faa en el segmento naked y utiliza un propulsor monocil\u00edndrico de 10 CV de potencia. Se completa con discos en ambos ejes y llantas de 18\" de di\u00e1metro.\n[sf_btn type=\"default\" txt=\"Ver precio\" url=\"https://motosnuevas.formulamoto.es/precios/sumco/rocket-125i/4994.html\"]\n&nbsp;\n[sf_btn type=\"seguros\" txt=\"Calcular seguro\" url=\"https://motosnuevas.formulamoto.es/comparador-seguros-motos.php\"]\n\n\n&nbsp;\n&nbsp;\n&nbsp;\n\n[sf_btn type=\"newsletter\" txt=\"\u00bfQuieres recibir nuestra newsletter? Haz clic aqu\u00ed\" url=\"https://news.luike.com/registro-formulamoto-luike-news\"]",
+    "url": "https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html",
+    "articleSection": "Reportajes",
+    "datePublished": "2021-07-03T12:02:00+02:00",
+    "dateModified": "2021-08-23T13:54:01+02:00",
+    "author": [
+        {
+            "@type": "person",
+            "name": "Ram\u00f3n L\u00f3pez",
+            "url": "https://www.formulamoto.es/autores/ramonlopez/"
+        }
+    ],
+    "publisher": {
+        "@type": "Organization",
+        "url": "https://www.formulamoto.es",
+        "name": "FormulaMoto",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/themes/formulamoto/img/formulamoto.png?v=1642076015"
+        }
+    },
+    "image": {
+        "@type": "ImageObject",
+        "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/ksr_quip.jpg",
+        "name": "ksr_quip",
+        "caption": "",
+        "datePublished": "2021-05-23T18:25:03+00:00",
+        "author": "Ram\u00f3n L\u00f3pez"
+    },
+    "associatedMedia": [
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/sumco_rocket_125.jpg",
+            "name": "sumco_rocket_125",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:07+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/rieju_bye_bike.jpg",
+            "name": "rieju_bye_bike",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:06+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/keeway_zahara_125.jpg",
+            "name": "keeway_zahara_125-2",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:06+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/mitt_125_rt.jpg",
+            "name": "mitt_125_rt",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:06+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/um_chill.jpg",
+            "name": "um_chill",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:05+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/ksr_classic_125.jpg",
+            "name": "ksr_classic_125",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:05+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/ksr_sirion_125.jpg",
+            "name": "ksr_sirion_125",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:04+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/sumco_rommi_125i.jpg",
+            "name": "sumco_rommi_125i",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:04+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/e_broh_spuma.jpg",
+            "name": "e_broh_spuma",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:04+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/e-broh_venerdi.jpg",
+            "name": "e-broh_venerdi",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:03+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g.jpg",
+            "name": "stand-honda-salon-vive-moto-2019-45g",
+            "caption": "",
+            "datePublished": "2021-05-23T18:24:59+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/keeway_urbanblade.jpg",
+            "name": "keeway_urbanblade",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:02+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/2011_keeway_f_act_50_evo.jpg",
+            "name": "2011_keeway_f_act_50_evo",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:02+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/2014_keeway_zahara_50.jpg",
+            "name": "2014_keeway_zahara_50",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:02+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/lexmoto_nano.jpg",
+            "name": "lexmoto_nano",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:01+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/mitt_50_rt.jpg",
+            "name": "mitt_50_rt",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:01+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/ksr_classic_50.jpg",
+            "name": "ksr_classic_50",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:01+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/lexmoto_echo.jpg",
+            "name": "lexmoto_echo",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:00+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/ksr_sirion_50.jpg",
+            "name": "ksr_sirion_50",
+            "caption": "",
+            "datePublished": "2021-05-23T18:25:00+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        },
+        {
+            "@type": "ImageObject",
+            "url": "https://www.formulamoto.es/wp-content/uploads/2020/07/ksr_pandora_50.jpg",
+            "name": "ksr_pandora_50",
+            "caption": "",
+            "datePublished": "2021-05-23T18:24:59+00:00",
+            "author": "Ram\u00f3n L\u00f3pez"
+        }
+    ]
+}</script><meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-title" content="FórmulaMoto - Todo sobre motos, marcas, modelos, pruebas, fotos...">
+<meta name="onesignal" content="wordpress-plugin" />
+<script type="43838a79995c9a311b940e2c-text/javascript">
+
+      window.OneSignal = window.OneSignal || [];
+
+      OneSignal.push( function() {
+        OneSignal.SERVICE_WORKER_UPDATER_PATH = 'OneSignalSDKUpdaterWorker.js';
+                      OneSignal.SERVICE_WORKER_PATH = 'OneSignalSDKWorker.js';
+                      OneSignal.SERVICE_WORKER_PARAM = { scope: '/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/push/onesignal/' };
+        OneSignal.setDefaultNotificationUrl("https://www.formulamoto.es");
+        var oneSignal_options = {};
+        window._oneSignalInitOptions = oneSignal_options;
+
+        oneSignal_options['wordpress'] = true;
+oneSignal_options['appId'] = 'aac20c45-e7e0-430f-a6ab-3e58bf1957a6';
+oneSignal_options['allowLocalhostAsSecureOrigin'] = true;
+oneSignal_options['welcomeNotification'] = { };
+oneSignal_options['welcomeNotification']['title'] = "";
+oneSignal_options['welcomeNotification']['message'] = "";
+oneSignal_options['path'] = "https://www.formulamoto.es/wp-content/plugins/onesignal-free-web-push-notifications/sdk_files/";
+oneSignal_options['promptOptions'] = { };
+oneSignal_options['promptOptions']['actionMessage'] = "Recibir notificaciones de Formulamoto";
+oneSignal_options['notifyButton'] = { };
+oneSignal_options['notifyButton']['enable'] = true;
+oneSignal_options['notifyButton']['position'] = 'bottom-right';
+oneSignal_options['notifyButton']['theme'] = 'default';
+oneSignal_options['notifyButton']['size'] = 'medium';
+oneSignal_options['notifyButton']['showCredit'] = true;
+oneSignal_options['notifyButton']['text'] = {};
+                OneSignal.init(window._oneSignalInitOptions);
+                      });
+
+      function documentInitOneSignal() {
+        var oneSignal_elements = document.getElementsByClassName("OneSignal-prompt");
+
+        var oneSignalLinkClickHandler = function(event) { OneSignal.push(['registerForPushNotifications']); event.preventDefault(); };        for(var i = 0; i < oneSignal_elements.length; i++)
+          oneSignal_elements[i].addEventListener('click', oneSignalLinkClickHandler, false);
+      }
+
+      if (document.readyState === 'complete') {
+           documentInitOneSignal();
+      }
+      else {
+           window.addEventListener("load", function(event){
+               documentInitOneSignal();
+          });
+      }
+    </script>
+<link rel="manifest" href="https://www.formulamoto.es/wp-content/plugins/singular-pwa/manifest.json"><meta name="theme-color" content="#dc3545" /><link rel="amphtml" href="https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html?amp=1"> 
+<script type="43838a79995c9a311b940e2c-text/javascript">(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+	new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+	j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+	'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+	})(window,document,'script','dataLayer','GTM-599MMHL');</script>
+
+
+<script type="43838a79995c9a311b940e2c-text/javascript">
+window.didomiOnReady = window.didomiOnReady || [];
+window.didomiOnReady.push(function (Didomi) {
+ // Check user consent
+ window._comscore = window._comscore || [];
+ comscore_push = { c1: "2", c2: "14224240"};
+ if (typeof Didomi.getUserConsentStatusForVendor(77) !== "undefined" && Didomi.isConsentRequired()  ) {
+	comscore_push.cs_ucfr = (Didomi.getUserConsentStatusForVendor(77) ? "1": "0");
+ }
+console.log(comscore_push);
+window._comscore.push(comscore_push);
+ (function() {
+   var s = document.createElement("script"), el = document.getElementsByTagName("script")[0]; s.async = true;
+   s.src = "https://sb.scorecardresearch.com/cs/14224240/beacon.js";
+   el.parentNode.insertBefore(s, el);
+ })();
+});
+</script>
+<noscript><img src="https://sb.scorecardresearch.com/p?c1=2&c2=14224240&cs_ucfr=1&cv=3.6&cj=1"></noscript>
+
+
+<script async='async' src='https://securepubads.g.doubleclick.net/tag/js/gpt.js' defer type="43838a79995c9a311b940e2c-text/javascript"></script>
+
+<script type="43838a79995c9a311b940e2c-text/javascript">
+		function detectDevice() {
+			windowWidth = window.innerWidth;
+			var device = 'desktop';
+			if(windowWidth < 768){ //mobile
+				device = 'mobile';
+			}else if(windowWidth >= 768 && windowWidth <= 1024) {
+				device = 'tablet';
+			}
+			return device;
+		}
+	</script>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+		var googletag = googletag || {};
+		googletag.cmd = googletag.cmd || [];
+	</script><script type="43838a79995c9a311b940e2c-text/javascript">
+		var gptAdSlots = [];
+		if (detectDevice() == 'mobile') {
+			googletag.cmd.push(function() {
+				var roba1mobile = googletag.sizeMapping().addSize([970, 0],[]).addSize([0, 0], [300,250]).build();
+				var roba2mobile = googletag.sizeMapping().addSize([970, 0],[]).addSize([0, 0], [300,250]).build();
+				var roba3mobile = googletag.sizeMapping().addSize([970, 0],[]).addSize([0, 0], [300,250]).build();
+				var roba4mobile = googletag.sizeMapping().addSize([970, 0],[]).addSize([0, 0], [300,250]).build();
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/billboard', [[320, 100], [300, 50], [320, 50], [300, 100]], 'billboard').addService(googletag.pubads());
+				gptAdSlots[0] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba1', [[300, 300], [300, 600], [300, 250]], 'roba1-mobile').defineSizeMapping(roba1mobile).addService(googletag.pubads());
+				gptAdSlots[1] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba2', [[300, 300], [300, 600], [300, 250]], 'roba2-mobile').defineSizeMapping(roba2mobile).addService(googletag.pubads());
+				gptAdSlots[2] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba3', [[300, 300], [300, 600], [300, 250]], 'roba3-mobile').defineSizeMapping(roba3mobile).addService(googletag.pubads());
+				gptAdSlots[3] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba4', [[300, 300], [300, 600], [300, 250]], 'roba4-mobile').defineSizeMapping(roba4mobile).addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/floor', [[300, 50], [300, 100], [320, 100], [320, 50]], 'floor').addService(googletag.pubads());
+				googletag.defineOutOfPageSlot('/21682672808,1778146/formulamoto.es/skin', 'skin').addService(googletag.pubads());
+				googletag.pubads().setTargeting('param1', ['reportajes']).setTargeting('param2', ['20-motos-nuevas-baratas-mercado']);
+				googletag.enableServices();
+			});
+		}
+		else if (detectDevice() == 'tablet') {
+			googletag.cmd.push(function() {
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/billboard', [[728, 90]], 'billboard').addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba1', [[300, 300], [300, 600], [300, 250]], 'roba1').addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba2', [[300, 300], [300, 600], [300, 250]], 'roba2').addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba3', [[300, 300], [300, 600], [300, 250]], 'roba3').addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba4', [[300, 300], [300, 600], [300, 250]], 'roba4').addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/floor', [[728, 90]], 'floor').addService(googletag.pubads());
+				googletag.defineOutOfPageSlot('/21682672808,1778146/formulamoto.es/skin', 'skin').addService(googletag.pubads());
+				googletag.pubads().setTargeting('param1', ['reportajes']).setTargeting('param2', ['20-motos-nuevas-baratas-mercado']);
+				googletag.enableServices();
+			});
+		}
+		else {
+			googletag.cmd.push(function() {
+				var roba1desktop = googletag.sizeMapping().addSize([970, 0], [[300, 600],[300, 300]]).addSize([0, 0], []).build();
+				var roba2desktop = googletag.sizeMapping().addSize([970, 0], [[300, 600],[300, 300]]).addSize([0, 0], []).build();
+				var roba3desktop = googletag.sizeMapping().addSize([970, 0], [[300, 600],[300, 300]]).addSize([0, 0], []).build();
+				var roba4desktop = googletag.sizeMapping().addSize([970, 0], [[300, 600],[300, 300]]).addSize([0, 0], []).build();
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/billboard', [[980, 250], [990, 250], [970, 250], [728, 90], [990, 90], [980, 90]], 'billboard').addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/sky-izquierdo', [[120, 1000], [120, 800], [160, 600], [120, 600]], 'sky-izquierdo').addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/sky-derecho', [[120, 1000], [120, 800], [160, 600], [120, 600]], 'sky-derecho').addService(googletag.pubads());
+				gptAdSlots[4] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba1', [[300, 300], [300, 600], [300, 250]], 'roba1').defineSizeMapping(roba1desktop).addService(googletag.pubads());
+				gptAdSlots[5] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba2', [[300, 300], [300, 600], [300, 250]], 'roba2').defineSizeMapping(roba2desktop).addService(googletag.pubads());
+				gptAdSlots[6] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba3', [[300, 300], [300, 600], [300, 250]], 'roba3').defineSizeMapping(roba3desktop).addService(googletag.pubads());
+				gptAdSlots[7] = googletag.defineSlot('/21682672808,1778146/formulamoto.es/roba4', [[300, 300], [300, 600], [300, 250]], 'roba4').defineSizeMapping(roba4desktop).addService(googletag.pubads());
+				googletag.defineSlot('/21682672808,1778146/formulamoto.es/floor', [[728, 90], [990, 90], [970, 90], [980, 90]], 'floor').addService(googletag.pubads());
+				googletag.defineOutOfPageSlot('/21682672808,1778146/formulamoto.es/skin', 'skin').addService(googletag.pubads());
+				googletag.pubads().setTargeting('param1', ['reportajes']).setTargeting('param2', ['20-motos-nuevas-baratas-mercado']);
+				googletag.pubads().enableSingleRequest();
+				googletag.pubads().collapseEmptyDivs();
+				googletag.enableServices();
+			});
+		}
+	</script>
+
+<script type="43838a79995c9a311b940e2c-text/javascript">
+			var _paq = window._paq = window._paq || [];
+			/* tracker methods like "setCustomDimension" should be called before "trackPageView" */
+			_paq.push(['trackPageView']);
+			_paq.push(['enableLinkTracking']);
+			(function() {
+				var u="//stats.bitecla.com/";
+				_paq.push(['setTrackerUrl', u+'matomo.php']);
+				_paq.push(['setSiteId', '3']);
+				var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
+				g.type='text/javascript'; g.async=true; g.src=u+'matomo.js'; s.parentNode.insertBefore(g,s);
+			})();
+		</script>
+
+
+<script type="43838a79995c9a311b940e2c-text/javascript">
+			window._seedtagq = window._seedtagq || [];
+			window._seedtagq.push(['_setId', '2948-3786-01']);
+			window._seedtagq.push(['iframe_mode']);
+			(function () {
+				var st = document.createElement('script');
+				st.type = 'text/javascript';
+				st.async = true;
+				st.src = ('https:' == document.location.protocol
+					? 'https'
+					: 'http') + '://config.seedtag.com/loader.js?v=' + Math.random();
+				var s = document.getElementsByTagName('script')[0];
+				s.parentNode.insertBefore(st, s);
+			})();
+		</script>
+</head>
+<body class="post-template-default single single-post postid-53987 single-format-standard wp-embed-responsive group-blog">
+<script type="43838a79995c9a311b940e2c-text/javascript">if(ewww_webp_supported){document.body.classList.add("webp-support");}</script>
+
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-599MMHL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<div class="site" id="page">
+<header>
+
+<div class="menu-hamburger--wrapper">
+<div class="menu-hamburger">
+<div class="menu-hamburger--header">
+<div class="menu-hamburger-header--wrapper">
+<a href="#" class="menu-hamburger--close icon-search-overlayer-close"></a>
+<div class="menu-hamburger--logo">
+<a href="https://www.formulamoto.es/">
+<img src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/formulamoto.png?v=1642076015" alt="Formulamoto.es">
+</a>
+</div>
+<div class="menu-top-principal--subitems">
+<a href="#" class="icon-af top"></a>
+<a href="#" class="icon-search"></a>
+</div>
+</div>
+</div>
+<div class="menu-hamburger--scroll">
+<ul id="burger" class="menu-hamburger--principal"><li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/novedades/">Novedades<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/nuevos-modelos/">Nuevos modelos</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/salones/">Salones</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/equipamiento/">Equipamiento</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/pruebas/">Pruebas<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/pruebas-alan-cathcart/">Pruebas de Alan Cathcart</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/prueba-ruta/">Prueba en ruta</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/comparativas/">Comparativas</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/motos-moteros/">Motos y Moteros<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/carnet-moto/">Carnet de Moto/Carnet A2</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/concentraciones-eventos/">Concentraciones</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/viajes-rutas/">Rutas</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/seguridad/">Seguridad</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/permisos-normativas/">Permisos y normativas</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/mujeres-en-moto/">Mujeres en moto</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/multas/">Multas</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/marcas/">Marcas y modelos<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/trail/">Trail</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/naked/">Naked</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/retro/">Retro</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/electrica/">Motos eléctricas</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/scooter/">Scooter</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/125cc/">Motos 125</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/zona-scooter125/">Scooter 125</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/megascooter/">Megascooter</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/motos-carnet-coche/">Motos con carnet de coche</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-custom menu-item-object-custom menu-item-has-children'><a href="https://motosnuevas.formulamoto.es/">Precios de motos<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-custom menu-item-object-custom'><a href="https://motosnuevas.formulamoto.es/">Motos Nuevas</a></li>
+<li class=' menu-item menu-item-type-custom menu-item-object-custom'><a href="https://motossegundamano.formulamoto.es/">Motos de segunda mano</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent'><a href="https://www.formulamoto.es/chollos/">Chollos-Ofertas</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/seguro-de-moto/">Seguro de Moto</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/zona-competicion/">Competición<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/moto-gp/">MotoGP</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/mundial-superbike/">Superbike</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/circuito-de-jerez/">Circuito de Jerez</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/pilotos-leyenda/">Pilotos de leyenda</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/motocross/">Motocross</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/dakar/">Dakar</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/trial/">Trial</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/enduro/">Enduro</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/accesorios/">Accesorios<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/equipamiento/">Equipamiento</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/cascos-de-moto/">Cascos de moto</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/dainese-agv/">Dainese-AGV</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/tecnologia-accesorios/">Técnica<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/averias-moto/">Averías de Moto</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/preparaciones-especiales/">Preparaciones especiales</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/consultorio/">Consultorio</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category menu-item-has-children'><a href="https://www.formulamoto.es/zona-clasicas/">Motos Clásicas<i class="icon-menu-arrow"></i></a>
+<ul class="sub-menu">
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/retro/">Retro</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/mantenimiento/">Mantenimiento</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent'><a href="https://www.formulamoto.es/reportajes/">Reportajes</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/made-in-spain/">Clásicas Españolas</a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/concentraciones-eventos-zona-clasicas/">Concentraciones y eventos</a></li>
+</ul>
+</li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/marcas/">Marcas y modelos<i class="icon-menu-arrow"></i></a></li>
+<li class=' menu-item menu-item-type-post_type menu-item-object-page'><a href="https://www.formulamoto.es/fotos/">Fotos<i class="icon-menu-arrow"></i></a></li>
+<li class=' menu-item menu-item-type-taxonomy menu-item-object-category'><a href="https://www.formulamoto.es/videos/">Vídeos<i class="icon-menu-arrow"></i></a></li>
+</ul> <div class="menu-hamburger--sidebar">
+<div>
+<a href="https://www.autofacil.es/evo-magazine/"><img class="logo-evo-magazine" width="70" height="47" src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/logo-hamburger-12.png" alt="logo-evo-magazine"></a>
+<a href="https://www.autofacil.es/todoterreno/"><img class="logo-todoterreno" width="130" height="47" src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/logo-hamburger-22.png?v=20211216" alt="logo-todoterreno"></a>
+<a href="https://www.autofacil.es/movilidad/"><img class="logo-luike-motion" width="200" height="47" src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/logo-hamburger-32.png?v=1642076015" alt="logo-luike-motion"></a>
+<a href="https://www.autofacil.es/"><img class="logo-autofacil" width="110" height="47" src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/logo-autofacil-all.png?v=20211216" alt="logo-autofacil"></a>
+<ul id="subsities" class="menu-hamburger--sections"><li id="menu-item-92" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-92"><a href="https://news.luike.com/registro-formulamoto-luike-news">Suscríbete a la Newsletter</a></li>
+<li id="menu-item-93" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-93"><a href="https://www.luike.com/kiosco/">Kiosco de revistas LUIKE</a></li>
+</ul> </div>
+<ul class="menu-hamburger--social d-flex justify-content-center">
+<li><a href="https://www.instagram.com/formulamotoes/" target="_blank"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>iconfinder_SocialMedia_Instagram-Outline_2959748</title><g id="MAQUETA-PORTADA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Portada-desktop-Copy-2" transform="translate(-1041.000000, -5489.000000)" fill="#222326" fill-rule="nonzero"><g id="Group-39-Copy" transform="translate(0.000000, 4633.000000)"><g id="Group-12" transform="translate(0.000000, 823.000000)"><g id="Group-6" transform="translate(128.000000, 29.000000)"><g id="iconfinder_SocialMedia_Instagram-Outline_2959748" transform="translate(913.000000, 4.000000)"><path d="M20.2368009,2.3808001 C23.8527198,2.3808001 26.7840012,5.31208152 26.7840012,8.92800039 L26.7840012,20.2368009 C26.7840012,23.8527198 23.8527198,26.7840012 20.2368009,26.7840012 L8.92800039,26.7840012 C5.31208152,26.7840012 2.3808001,23.8527198 2.3808001,20.2368009 L2.3808001,8.92800039 C2.3808001,5.31208152 5.31208152,2.3808001 8.92800039,2.3808001 L20.2368009,2.3808001 M20.2368009,0 L8.92800039,0 C4.00330705,0.0147079928 0.0147079928,4.00330705 0,8.92800039 L0,20.2368009 C0.0147079928,25.1614942 4.00330705,29.1500933 8.92800039,29.1648013 L20.2368009,29.1648013 C25.1614942,29.1500933 29.1500933,25.1614942 29.1648013,20.2368009 L29.1648013,8.92800039 C29.1500933,4.00330705 25.1614942,0.0147079928 20.2368009,0 Z" id="Shape"></path><path d="M22.361665,5.05920022 C21.4198825,5.05920022 20.6564169,5.82266579 20.6564169,6.7644483 C20.6564169,7.7062308 21.4198825,8.46969637 22.361665,8.46969637 C23.3034475,8.46969637 24.0669131,7.7062308 24.0669131,6.7644483 C24.0669131,6.31218839 23.8872535,5.87845187 23.5674575,5.55865582 C23.2476614,5.23885977 22.8139249,5.05920022 22.361665,5.05920022 Z" id="Path"></path><path d="M14.6627526,9.36547156 C16.7913995,9.36426877 18.7110595,10.6457674 19.5262135,12.6121505 C20.3413675,14.5785337 19.8913992,16.8423495 18.3862184,18.3475304 C16.8810375,19.8527112 14.6172217,20.3026795 12.6508385,19.4875255 C10.6844554,18.6723715 9.40295677,16.7527115 9.40415957,14.6240646 C9.40907525,11.7218626 11.7605506,9.37038724 14.6627526,9.36547156 M14.6627526,6.9846578 C10.4435486,6.9928876 7.0292508,10.418726 7.03526471,14.6379337 C7.04129453,18.8571414 10.4653575,22.2732198 14.6845678,22.2693946 C18.903778,22.2655629 22.321636,18.8432763 22.3200016,14.6240646 C22.3192147,12.5951175 21.511648,10.6497579 20.0752919,9.21675123 C18.6389357,7.78374454 16.6916961,6.98072171 14.6627526,6.9846578 L14.6627526,6.9846578 Z" id="Shape"></path></g></g></g></g></g></g></svg></a></li>
+<li><a href="https://www.facebook.com/formulamoto/" target="_blank"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" width="17px" height="30px" viewBox="0 0 17 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>iconfinder_1_Facebook2_colored_svg_5296500</title><g id="MAQUETA-PORTADA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Portada-desktop-Copy-2" transform="translate(-1115.000000, -5489.000000)" fill="#222326" fill-rule="nonzero"><g id="Group-39-Copy" transform="translate(0.000000, 4633.000000)"><g id="Group-12" transform="translate(0.000000, 823.000000)"><g id="Group-6" transform="translate(128.000000, 29.000000)"><g id="Group-18" transform="translate(913.000000, 4.000000)"><g id="iconfinder_1_Facebook2_colored_svg_5296500" transform="translate(74.666667, 0.000000)"><path d="M14.539394,16.2813073 L15.3427931,11.0429786 L10.3168206,11.0429786 L10.3168206,7.64362732 C10.3168206,6.21050772 11.0188834,4.81361627 13.2700415,4.81361627 L15.5552063,4.81361627 L15.5552063,0.353964991 C15.5552063,0.353964991 13.4813155,-9.10671578e-16 11.4986786,-9.10671578e-16 C7.35921355,-9.10671578e-16 4.65377949,2.50874254 4.65377949,7.05053375 L4.65377949,11.0429786 L0.0525194273,11.0429786 L0.0525194273,16.2813073 L4.65377949,16.2813073 L4.65377949,28.9446412 C5.57640115,29.0894399 6.52203565,29.1648013 7.48532853,29.1648013 C8.44862141,29.1648013 9.39425591,29.0894399 10.3168206,28.9446412 L10.3168206,16.2813073 L14.539394,16.2813073 Z" id="Path"></path></g></g></g></g></g></g></g></svg></a></li>
+<li><a href="https://twitter.com/formulamoto" target="_blank"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" width="31px" height="24px" viewBox="0 0 31 24" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>iconfinder_1_Twitter_colored_svg_5296514</title><g id="MAQUETA-PORTADA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Portada-desktop-Copy-2" transform="translate(-1176.000000, -5492.000000)"><g id="Group-39-Copy" transform="translate(0.000000, 4633.000000)"><g id="Group-12" transform="translate(0.000000, 823.000000)"><g id="Group-6" transform="translate(128.000000, 29.000000)"><g id="Group-18" transform="translate(913.000000, 4.000000)"><g id="iconfinder_1_Twitter_colored_svg_5296514" transform="translate(135.333333, 3.000000)"><rect id="Rectangle" x="3.18127868" y="0.51127693" width="22.7234191" height="22.7234191"></rect><path d="M9.14697151,23.6899029 C20.1228374,23.6899029 26.1261943,14.5965019 26.1261943,6.71068013 C26.1261943,6.45242848 26.1261943,6.19531299 26.1087541,5.93933367 C27.2766242,5.09453376 28.2848055,4.04863158 29.0859765,2.85042569 C27.9968998,3.33301431 26.8414707,3.64943792 25.6584895,3.78930056 C26.9039602,3.04374518 27.8366997,1.8701942 28.2820219,0.48861032 C27.1106865,1.1836629 25.8290288,1.67357982 24.4927213,1.93711467 C23.36439,0.737261333 21.7885208,0.0560700367 20.1415842,0.0560700367 C16.8647536,0.0560700367 14.1684495,2.75243095 14.1684495,6.02914799 C14.1684495,6.48372999 14.2203725,6.93689177 14.3230823,7.37965759 C9.52741836,7.13930063 5.05306352,4.87093531 2.0243726,1.14480586 C0.449412422,3.85605061 1.26433104,7.36965929 3.87190019,9.11084128 C2.92234532,9.08272105 1.99318471,8.8265145 1.16343906,8.36392249 L1.16343906,8.43953467 C1.16423438,11.2693957 3.17713165,13.7290354 5.95097942,14.2893381 C5.07249204,14.5288997 4.15054612,14.5638938 3.25649319,14.3917071 C4.03630413,16.8165799 6.28501369,18.4880578 8.83168407,18.5358906 C6.71897418,20.1962341 4.10765567,21.0981266 1.42055455,21.0954566 C0.945748704,21.0945476 0.47139733,21.0658025 0,21.0093348 C2.72874178,22.7604583 5.90468046,23.6895621 9.14697151,23.6852446" id="Path" fill="#222326" fill-rule="nonzero"></path></g></g></g></g></g></g></g></svg></a></li>
+<li><a href="https://www.youtube.com/channel/UCCz4ckjYz4ET9sHQAezBohw/feed" target="_blank"><svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" width="42px" height="29px" viewBox="0 0 42 29" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><title>iconfinder_1_Youtube_colored_svg_5296521</title><g id="MAQUETA-PORTADA" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="Portada-desktop-Copy-2" transform="translate(-1251.000000, -5490.000000)" fill-rule="nonzero"><g id="Group-39-Copy" transform="translate(0.000000, 4633.000000)"><g id="Group-12" transform="translate(0.000000, 823.000000)"><g id="Group-6" transform="translate(128.000000, 29.000000)"><g id="Group-18" transform="translate(913.000000, 4.000000)"><g id="iconfinder_1_Youtube_colored_svg_5296521" transform="translate(210.000000, 1.000000)"><path d="M40.2186557,4.55427242 C39.7462681,2.78683026 38.354618,1.39509994 36.5871758,0.922792541 C33.3834763,0.0642633303 20.538432,0.0642633303 20.538432,0.0642633303 C20.538432,0.0642633303 7.69338768,0.0642633303 4.48960794,0.922792541 C2.72256693,1.39509994 1.33051569,2.78683026 0.858128066,4.55427242 C-2.91870953e-15,7.75765101 -2.91870953e-15,14.4413583 -2.91870953e-15,14.4413583 C-2.91870953e-15,14.4413583 -2.91870953e-15,21.1250655 0.858128066,24.3281232 C1.33051569,26.0955654 2.72256693,27.4876166 4.48960794,27.959924 C7.69338768,28.8181323 20.538432,28.8181323 20.538432,28.8181323 C20.538432,28.8181323 33.3834763,28.8181323 36.5871758,27.959924 C38.354618,27.4876166 39.7462681,26.0955654 40.2186557,24.3281232 C41.0771849,21.1250655 41.0771849,14.4413583 41.0771849,14.4413583 C41.0771849,14.4413583 41.0771849,7.75765101 40.2186557,4.55427242 L40.2186557,4.55427242 Z" id="Path" fill="#222326"></path><polygon id="Path" fill="#FFFFFF" points="16.430553 20.6030162 27.1024378 14.4413583 16.430553 8.27970031"></polygon></g></g></g></g></g></g></g></svg></a></li>
+</ul>
+</div>
+</div>
+</div>
+</div>
+
+<div class="menu-1nivel menu-sticky">
+<div class="container-fluid menu-top-principal">
+<div class="container-md px-0 h-100 d-flex justify-content-between align-self-center">
+<div class="menu-top-principal--navegacion">
+<div class="menu-prinicpal-navegacion--logo">
+<a href="#" class="btn-hamburger align-self-center">
+<svg class="svg-icon" width="24" height="24" aria-hidden="true" role="img" focusable="false" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="21px" height="17px" viewBox="0 0 21 17"><title>Group</title><g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g id="menu" transform="translate(-120.000000, -40.000000)" fill="#222326"><g id="Group-6" transform="translate(120.028601, 30.000000)"><g id="Group" transform="translate(0.000000, 10.000000)"><rect id="Rectangle" x="0" y="0" width="19.9999988" height="3" rx="1.5"></rect><rect id="Rectangle" x="0" y="7" width="19.9999988" height="3" rx="1.5"></rect><path d="M1.5,14 L11.8333333,14 C12.6617605,14 13.3333333,14.6715729 13.3333333,15.5 C13.3333333,16.3284271 12.6617605,17 11.8333333,17 L1.5,17 C0.671572875,17 1.01453063e-16,16.3284271 0,15.5 C-1.01453063e-16,14.6715729 0.671572875,14 1.5,14 Z" id="Rectangle"></path></g></g></g></g></svg> </a>
+<div class="logo">
+<a href="https://www.formulamoto.es/">
+<img src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/formulamoto.png?v=1642076015" alt="Formulamoto.es">
+</a>
+</div>
+</div>
+<div class="menu-prinicpal-navegacion--menu justify-content-center align-items-center">
+
+<div class="scrollable-title"><span><a href="https://www.formulamoto.es/zona-clasicas/">Motos Clásicas</a></span></div>
+
+<div class="scrollable">
+<div class="scrollable-wrapper">
+<ul class="menu-wrapper"><li class="current-menu-item"><a href="https://www.formulamoto.es/reportajes/">Reportajes</a></li><li><a href="https://www.formulamoto.es/retro/">Retro</a></li><li><a href="https://www.formulamoto.es/mantenimiento/">Mantenimiento</a></li><li><a href="https://www.formulamoto.es/made-in-spain/">Clásicas Españolas</a></li><li><a href="https://www.formulamoto.es/concentraciones-eventos-zona-clasicas/">Concentraciones y eventos</a></li></ul> </div>
+<div class="scrollable-navigation">
+<a class="scrollable-left" href="#"></a>
+<a class="scrollable-right" href="#"></a>
+</div>
+</div>
+</div>
+</div>
+<div class="menu-top-principal--subitems">
+<a id="popover-login" class="icon-af top" data-toggle="popover" data-container="body" data-placement="bottom" data-content="
+        <h6 class='dropdown-header text-center font-weight-bold'>Inicia sesión en Mi Autofácil</h6>
+        <form class='px-4 py-3' action='/login' method='post'>
+            <div class='from-group'>
+				<input class='form-control' type='text' name='username' id='username' placeholder='Dirección de e-mail' />
+			</div>
+			<div class='form-group'>
+			    <input class='form-control' type='password' name='password' id='password' placeholder='Contraseña' />
+			</div>
+			<div class='clearfix form-group'>
+				<a href='/wp-login.php?action=lostpassword' class='pull-right text-muted'>Reestablecer contraseña</a>
+			</div>
+			<button class='btn btn-danger btn-block' type='submit' name='submit' >Acceder</button>
+				<a class='btn btn-primary btn-block' style='background-color: #3b5998' href='#!' role='button'>
+					<i class='fa fa-facebook fa-fw'></i>Sign in with Facebook</a>
+				<a class='btn btn-outline-secondary btn-block' href='#!' role='button'>
+					<i class='fa fa-google fa-fw' ></i>Sign in with Google</a>
+		</form>
+		<p class='dropdown-item text-center text-muted' >No tienes cuenta? <a href='/register' class='text-muted font-weight-bold'>REGÍSTRATE</a></p>">
+</a>
+<a href="#" class="icon-search"></a>
+</div>
+</div>
+</div>
+
+<nav class="menu-mobile-hz menu-2nivel menu-sticky mobile-sticky">
+<div class="scrollable">
+<div class="scrollable-wrapper">
+<ul><li class="current-menu-item"><a href="https://www.formulamoto.es/reportajes/">Reportajes</a></li><li><a href="https://www.formulamoto.es/retro/">Retro</a></li><li><a href="https://www.formulamoto.es/mantenimiento/">Mantenimiento</a></li><li><a href="https://www.formulamoto.es/made-in-spain/">Clásicas Españolas</a></li><li><a href="https://www.formulamoto.es/concentraciones-eventos-zona-clasicas/">Concentraciones y eventos</a></li></ul> </div>
+</div>
+</nav>
+</div>
+</header>
+
+<section class="two-col-section__wrapper pt-5">
+<div class="container-fluid">
+<div class="row d-flex justify-content-between align-content-center">
+<div class="col-2 d-none d-xl-block two-col-section__banner">
+<div class="two-col-section__banner--wrapper">
+<div id='sky-izquierdo'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('sky-izquierdo'); });
+  </script>
+</div> </div>
+</div>
+<div class="col-12 px-0 col-xl-8 content-single" data-column="content">
+<div class="ad text-center mb-5" data-type="single">
+<div id='billboard'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('billboard'); });
+  </script>
+</div> </div>
+<div class="container-fluid">
+<div class="row d-flex justify-content-between align-content-center">
+
+<div class="col-lg-8 col-12 px-0 modulo-noticia--content">
+<article class="post-53987 post type-post status-publish format-standard has-post-thumbnail hentry category-reportajes category-chollos tag-motos-baratas" id="post-53987">
+
+<header class="modulo-noticia--header container-md px-md-0 mb-4">
+<div class="row no-gutters">
+<div class="col">
+<span class="title-epigrafe">Actualizado</span>
+<h1 class="title-font title-modelo">Las 20 motos nuevas más baratas del mercado 2020</h1>
+</div>
+</div>
+</header>
+
+<div class="modulo-noticia--img container-md px-md-0 mb-5">
+<div class="row no-gutters">
+<figure class="col">
+<img width="1200" height="800" src="https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g-1200x800.jpg" class="attachment-featured size-featured wp-post-image" alt="stand honda salon vive moto 2019 45g" loading="lazy" srcset="https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g.jpg 1200w, https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g-300x200.jpg 300w, https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g-1024x683.jpg 1024w, https://www.formulamoto.es/wp-content/uploads/2021/05/stand-honda-salon-vive-moto-2019-45g-768x512.jpg 768w" sizes="(max-width: 1200px) 100vw, 1200px" title="Las 20 motos nuevas más baratas del mercado 2020 1"> <figcaption class="figure-caption">
+Motos más baratas </figcaption>
+</figure>
+</div>
+</div>
+
+<div class="modulo-noticia--otros container-md px-md-0 mb-4">
+<div class="row">
+<article class="col-12 col-sm-6 d-flex align-items-start justify-content-between flex-wrap flex-row modulo-noticia-otros--item">
+<div class="modulo-noticia-otros-item--text">
+<h4>
+<a class="related-link" href="/chollos/" rel="bookmark" title="Todos los chollos del mercado de scooters y motos">
+<i class="fa fa-lg fa-link"></i>&nbsp;&nbsp;Todos los chollos del mercado de scooters y motos </a>
+</h4>
+</div>
+</article>
+</div>
+</div>
+
+<div class="container-md px-md-0 mb-4">
+<div class="row">
+<div class="col-12 d-flex col-sm-6 modulo-noticia--autor">
+<div class="avatar-author">
+<a href="https://www.formulamoto.es/author/ramonlopez/" class="avatar-author--img">
+<img src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/avatar.png" alt="Ramón López">
+</a>
+<div class="avatar-author--text">
+<a href="https://www.formulamoto.es/author/ramonlopez/">Ramón López</a>
+<time datetime="2021-08-23T13:54:01+02:00">23/08/2021 13:54</time>
+</div>
+</div>
+</div>
+<div class="col-12 col-sm-6 d-flex align-items-center modulo-noticia--share">
+<a class="icon-af " data-js="53987" data-type="favorite_posts"></a>
+<a class="icon-share icon-share-facebook" href="https://www.facebook.com/sharer/sharer.php?u=https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html" title="Compartir en Facebook" target="_blank"></a>
+<a class="icon-share icon-share-twitter" href="https://twitter.com/intent/tweet?original_referer=https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html&tw_p=tweetbutton&url=https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html&text=Las 20 motos nuevas más baratas del mercado 2020&via=formulamoto" title="Compartir en Twitter" target="_blank"></a>
+<a class="icon-share icon-share-whats" href="https://api.whatsapp.com/send?text=Las 20 motos nuevas más baratas del mercado 2020 - https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html" target="_blank"></a>
+</div>
+</div>
+</div>
+
+<div class="modulo-noticia--contenido container-md px-md-0">
+<div class="row">
+<div class="col">
+<span class="title-portadilla">
+<p>Entre la amplia oferta de <a href="https://motosnuevas.formulamoto.es/">modelos a la venta en 2020</a>, recopilamos las 20 motocicletas (scooters y motos) más baratas para aprovechar las ventajas de los vehículos de dos ruedas en la nueva normalidad.</p> </span>
+<p>La situación creada por la<a href="/coronavirus/"> pandemia por coronavirus</a> nos obliga a replantearnos el concepto de movilidad urbana. Condicionantes como el distanciamiento social y la seguridad sanitaria hacen del <a href="/coronavirus/2020/05/03/moto-solucion-eficaz-eficiente-responsable/27573.html">empleo de la motocicleta un instrumento eficaz y eficiente para afrontar esta nueva realidad</a>. En el mercado encontramos un extenso elenco de modelos que <a href="/carnet-moto/2016/04/21/carnet-moto-a1-a2-motos-puedes-conducir/14878.html">se pueden conducir sin carné específico de moto</a>, lo que facilita su acceso a la inmensa mayoría de la población.</p>
+<p>Entre estos modelos hemos incluido los que disponen de un<strong> PVP más económico. Todos ellos son scooters de 50 cc, 125 cc y eléctricas y una moto de 125 a la venta en 2020.</strong> En cualquier caso, siempre te aconsejamos que analices si en tu zona geográfica estas marcas disponen de una red de talleres y concesionarios para el mantenimiento del vehículo. También es aconsejable siempre tener la posibilidad de realizar una prueba en marcha con una unidad de pruebas, de modo que tengas la certeza de que se adapta a tus necesidades.</p><div class="text-center mt-1 mb-3"><script defer id="videoo-library" data-id="684f2b23929147e10e5fb23c223d963ff3081e0805c6d317c388e7a620f683f8" src="https://static.videoo.tv/684f2b23929147e10e5fb23c223d963ff3081e0805c6d317c388e7a620f683f8.js" type="43838a79995c9a311b940e2c-text/javascript"></script></div>
+<blockquote class="wp-block-quote"><p><a href="https://motosnuevas.formulamoto.es/" target="_blank" rel="noopener"><span style="font-size:18px;"><strong>Precios, ofertas, fichas técnicas e imágenes de todos los modelos del mercado</strong></span></a></p><div class="d-block d-sm-none text-center mt-1 mb-3"><div id="roba1-mobile">
+<script type="43838a79995c9a311b940e2c-text/javascript">
+googletag.cmd.push(function() { googletag.display('roba1-mobile'); });
+</script>
+</div>
+</div></blockquote>
+<p>Por último, consejos recurrentes que no pueden ser jamás dejados de lado. <a href="/seguridad/2019/07/19/10-consejos-basicos-circular-seguro/24806.html">En toda época del año hay que rodar en moto o scooter protegido más allá del casco obligatorio</a>. Guantes, chaqueta, pantalones y calzado con protecciones incrementarán de forma exponencial nuestra seguridad. Y, por supuesto, <a href="/motos-moteros/2013/05/27/14-consejos-realizar-conduccion-segura-moto/6846.html">realizar siempre una conducción segura </a>para sacar el mejor provecho de las ventajas de ahorro de tiempo y dinero, beneficios medioambientales y de todo tipo asociados al empleo de las dos ruedas motorizadas en la ciudad.</p><div class="d-block d-sm-none text-center mt-1 mb-3"><div id='roba2-mobile'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('roba2-mobile'); });
+  </script>
+</div></div>
+<p><img alt="ksr pandora 50" src="/wp-content/uploads/2020/07/ksr_pandora_50.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 2"></p>
+<h3><strong>KSR PANDORA 50 – 1.099 €</strong></h3>
+<p>El scooter más económico del mercado en 2020 exhibe un patrón deportivo por imagen y un peso por debajo de 100 kg para sus 3 CV de potencia. Para el tren trasero dispone de tambor en complemento al disco frontal</p><div class="d-block d-sm-none text-center mt-1 mb-3"><div id='roba3-mobile'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('roba3-mobile'); });
+  </script>
+</div></div>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/ksr/pandora-50/5315.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p><div class="d-block d-sm-none text-center mt-1 mb-3"><div id="roba4-mobile">
+<script type="43838a79995c9a311b940e2c-text/javascript">
+googletag.cmd.push(function() { googletag.display('roba4-mobile'); });
+</script>
+</div></div>
+<h2>&nbsp;</h2>
+<p><img alt="ksr sirion 50" src="/wp-content/uploads/2020/07/ksr_sirion_50.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 3"></p>
+<h3><strong>KSR SIRION 50 – 1.299 €</strong></h3>
+<p>Está un paso por encima de su hermana Pandora. Sus condiciones más sport quedan patentes en un motor con 4 CV de potencia y el equipamiento de freno de disco también en el tren trasero.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/ksr/sirion-50/5320.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="" src="/wp-content/uploads/2020/07/lexmoto_echo.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 4"></p>
+<h3><strong>LEXMOTO ECHO – 1.399 €</strong></h3>
+<p>Otro representante de los scooters 50 de perfil deportivo, en su caso con motor de 2 CV y equipo de freno compuesto por disco delantero y tambor trasero. Sus llantas son de 10&#8243;.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/lexmoto/echo/6231.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="ksr classic 50" src="/wp-content/uploads/2020/07/ksr_classic_50.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 5"></p>
+<h3><strong>KSR CLASSIC&nbsp;50 – 1.399 €</strong></h3>
+<p>Mantiene un esquema muy retro, incluyendo los colores de sus fibras y la combinación con el tono elegido para el asiento. Cuanto con combinación de llantas de 12&#8243; delante y 10&#8243; detrás, y motor de 4 CV.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/yamaha/mt-125-abs/4424.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="mitt 50 rt" src="/wp-content/uploads/2020/07/mitt_50_rt.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 6"></p>
+<h3><strong>MITT 50 RT&nbsp;– 1.495 €</strong></h3>
+<p>La firma española mantiene un equilibrio entre modelo de corte retro e imagen deportiva con este 50 RT, dotado de llantas de 10&#8243; y un motor con una potencia máxima de 3 CV. También se incluye como promoción seguro a terceros gratis.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/mitt/50-rt/7351.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="" src="/wp-content/uploads/2020/07/lexmoto_nano.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 7"></p>
+<h3><strong>LEXMOTO NANO – 1.499 €</strong></h3>
+<p>Es un scooter urbano con llantas de 12&#8243; y amplia capacidad de carga gracias a su plataforma plana y extensa parrilla trasera. El motor dispone de 4 CV de potencia.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/lexmoto/nano/6226.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="2014 keeway zahara 50" src="/wp-content/uploads/2020/07/2014_keeway_zahara_50.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 8"></p>
+<h3><strong>KEEWAY ZAHARA 50 – 1.499 €</strong></h3>
+<p>Es el reflejo de la gama más clásica del fabricante chino propietario de Benelli. Combina llanta delantera de 12&#8243; con trasera de 10&#8243; y aporta motor de 3 CV de potencia. Es 200 € más barato que su equivalente en 125 cc.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/keeway/zahara-50/3957.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="2011 keeway f act 50 evo" src="/wp-content/uploads/2020/07/2011_keeway_f_act_50_evo.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 9"></p>
+<h3><strong>KEEWAY F-ACT 50 EVO – 1.499 €</strong></h3>
+<p>Detalles como el diseño en forma de tubarro de su silenciador o la imagen de sus llantas de aleación, además de su decoración, reafirman la faceta más deportiva de este integrante del extenso catálogo de scooters Keeway apto para su conducción con licencia de ciclomotor.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/keeway/f-act-50-evo/2490.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="keeway urbanblade" src="/wp-content/uploads/2020/07/keeway_urbanblade.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 10"></p>
+<h3><strong>KEEWAY URBANBLADE – 1.499 €</strong></h3>
+<p>Ha sido el último modelo lanzado por la marca en este segmento de los scooters de 50 cc, un urbanita completo con llantas de 12&#8243;, discos de freno en ambos ejes y motor de 4 CV de potencia máxima.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/keeway/urbanblade/6906.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><a href="https://news.luike.com/registro-formulamoto-luike-news" target="blank" rel="noopener"><span style="color:#ffffff;"><img alt="ksr quip" src="/wp-content/uploads/2020/07/ksr_quip.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 11"></span></a></p>
+<h3><strong>KSR QUIP 50/125 – 1.499/1.699 €</strong></h3>
+<p>Es la última versión retro de la marca austriaca, desdoblado en dos modelos de 50 cc y 125 cc que se suman al extenso elenco de modelos de ambas cilindradas que ofrece la marca en nuestro país y con un precio siempre muy competitivo.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/ksr/quip-50/8357.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<p><img alt="e broh venerdi" src="/wp-content/uploads/2020/07/e-broh_venerdi.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 12"></p>
+<h3><strong>E-BROH VENERDI – 1.542 €</strong></h3>
+<p>Significa el scooter con motor eléctrico más barato del mercado. La marca radicada en Zaragoza dispone de un amplio catálogo con esta tecnología. Su tiempo de recarga aproximado es de 6-8 horas.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/e-broh/venerdi/6581.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="e broh spuma" src="/wp-content/uploads/2020/07/e_broh_spuma.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 13"></p>
+<h3><strong>E-BROH SPUMA – 1.542 €</strong></h3>
+<p>Otra versión de ciclomotor eléctrico de E-Broh, co una estética retro más convencional y equipo completo de frenos de disco. Garantiza una autonomía entre 25-30 km.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/e-broh/spuma/7906.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="sumco rommi 125i" src="/wp-content/uploads/2020/07/sumco_rommi_125i.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 14"></p>
+<h3><strong>SUMCO ROMMI 125I -1.575 €</strong></h3>
+<p>Es el primer scooter de 125 cc entre la lista de los más baratos del mercado español en 2020. Integrante del segmento retro de la marca, dispone de motor con 8 CV de potencia. Incluye llantas de 10&#8243; y disco delantero más tambor trasero.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/sumco/rommi-125i/4997.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="ksr sirion 125" src="/wp-content/uploads/2020/07/ksr_sirion_125.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 15"></p>
+<h3><strong>KSR SIRION 125 – 1.599 €</strong></h3>
+<p>Es el 125 más económico de la firma austriaca. Ejerce el papel de hermano mayor del modelo de 50 cc, con el que comparte gráficas y diseño agresivo, y estando equipado con motor de 9 CV.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/ksr/sirion-125/5317.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="ksr classic 125" src="/wp-content/uploads/2020/07/ksr_classic_125.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 16"></p>
+<h3><strong>KSR CLASSIC 125 – 1.599 €</strong></h3>
+<p>Al igual que en el caso del Sirion, el Classic 125 es el peldaño siguiente a la versión ciclomtoor homónima, en su caso con motor de 8 CV y dotación de freno de disco trasero.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/ksr/classic-125/5321.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="um chill" src="/wp-content/uploads/2020/07/um_chill.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 17"></p>
+<h3><strong>UM MOTORCYCLES CHILL 50 – 1.670 €</strong></h3>
+<p>La marca norteamericana ofrece este scooter de tintes netamente retro tanto en 50 como en 125 cc. En la versión de inferior cilindrada equipa motor de 4 CV.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/um-motorcycles/chill-50/6911.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="mitt 125 rt" src="/wp-content/uploads/2020/07/mitt_125_rt.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 18"></p>
+<h3><strong>MITT 125 RT – 1.695 €</strong></h3>
+<p>La firma radicada en Madrid dispone de este scooter 125 entre los más baratos del mercado actual. Exhibe elementos de sobresaliente calado retro como el asiento partido para pasajero y piloto. Su motor eleva su potencia hasta los 9 CV.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/mitt/125-rt/5826.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="keeway zahara 125" src="/wp-content/uploads/2020/07/keeway_zahara_125.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 19"></p>
+<h3><strong>KEEWAY ZAHARA 125 – 1.699 €</strong></h3>
+<p>Representante en el «octavo de litro» del modelo con el mismo nombre en la categoría de 50 cc. Su motor alcanza una potencia de 8 CV.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/keeway/zahara-125/2866.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="rieju bye bike" src="/wp-content/uploads/2020/07/rieju_bye_bike.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 20"></p>
+<h3><strong>RIEJU BYE BIKE – 1.712 €</strong></h3>
+<p>Para los más nostálgicos de los legendarios ciclomotores de antaño como los Vespino, Derbi Variant, etc., la española Rieju comercializa este modelo con componentes desarrollados por la industria auxiliar que en su día proveía a las icónicas Derbi. Sus llantas son de 17&#8243; como las motos convencionales.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/rieju/bye-bike/4617.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p><img alt="sumco rocket 125" src="/wp-content/uploads/2020/07/sumco_rocket_125.jpg" style="width: 100%; height: 100%;" title="Las 20 motos nuevas más baratas del mercado 2020 21"></p>
+<h3><strong>SUMCO ROCKET 125I – 1.749 €</strong></h3>
+<p>Es la única moto de 125 cc que acoge esta lista de las 20 motocicletas más baratas del mercado español en 2020. Se sitúa en el segmento naked y utiliza un propulsor monocilíndrico de 10 CV de potencia. Se completa con discos en ambos ejes y llantas de 18&#8243; de diámetro.</p>
+<div class="row" style="padding-bottom: 0px; padding-left: 0px; margin-bottom:0px; border-bottom:0px solid #ccc">
+<a title="Ver precio" href="https://motosnuevas.formulamoto.es/precios/sumco/rocket-125i/4994.html" target="_blank" rel="noopener">
+<button type="button" class="btn btn-light btn-lg btn-block">
+<i class="fa fa-link fa-lg"></i> Ver precio
+</button>
+</a></p>
+<div style="width:4px;float:left;">&nbsp;</div>
+<a title="Calcular seguro" href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php" target="_blank" rel="noopener">
+<button type="button" class="btn btn-warning btn-lg btn-block">
+<i class="fa fa-shield fa-lg"></i> Calcular seguro
+</button>
+</a>
+</div>
+<p>&nbsp;</p>
+<h2>&nbsp;</h2>
+<p>&nbsp;</p>
+<a title="¿Quieres recibir nuestra newsletter? Haz clic aquí" href="https://news.luike.com/registro-formulamoto-luike-news" target="_blank" rel="noopener">
+<button type="button" class="btn btn-info btn-lg btn-block">
+<i class="fa fa-newspaper-o fa-lg"></i> ¿Quieres recibir nuestra newsletter? Haz clic aquí
+</button>
+</a>
+</p> <p>
+<div class="OUTBRAIN" data-src="https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html" data-widget-id="AR_1"></div> <script type="43838a79995c9a311b940e2c-text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+<script async type="43838a79995c9a311b940e2c-application/javascript" src="https://static.sunmedia.tv/integrations/053f7916-ff58-4475-9d6d-2d35f07b6946/053f7916-ff58-4475-9d6d-2d35f07b6946.js" data-gdpr-applies="${gdpr}" data-consent-string="${gdpr_consent}"></script>
+</p>
+</div>
+</div>
+</div>
+<p>&nbsp;</p>
+</article>
+<section class="two-col-section__wrapper pt-5 mb-5 modulo-puede-interesarte" id="noticias">
+<div class="modulo-puede_interesarte container-md">
+<div class="row d-flex justify-content-between align-content-center">
+<div class="col-md-12 col-12 px-0 modulo-modelo--intro">
+<div class="title-line--wrapper container-md px-md-0">
+<div class="row">
+<div class="col">
+<h3 class="title-line">
+<span>Puede interesarte</span>
+</h3>
+</div>
+</div>
+</div>
+
+<article class="col-sm p-0 modulo-puede-interesarte--thumb">
+<a href="https://www.formulamoto.es/motos-125/motos-125-retro-no-desapercibidas/249352.html">
+<figure class="modulo-puede-interesarte-thumb--img">
+<img src=" https://www.formulamoto.es/wp-content/uploads/2022/01/Brixton_Crossfire_XS_125-10.jpg" alt="Motos 125: 15 modelos retro que no pasarán desapercibidos">
+</figure>
+</a>
+<div class="modulo-puede-interesarte-thumb--text">
+<div class="modulo-puede-interesarte--label label">
+<a href="https://www.formulamoto.es/motos-125/">Motos 125</a> </div>
+<a href="https://www.formulamoto.es/motos-125/motos-125-retro-no-desapercibidas/249352.html" title="Motos 125: 15 modelos retro que no pasarán desapercibidos">
+<h2 class="title-font title-hero-little">
+Motos 125: 15 modelos retro que no pasarán desapercibidos </h2>
+</a>
+</div>
+</article>
+
+<article class="col-sm p-0 modulo-puede-interesarte--thumb">
+<a href="https://www.formulamoto.es/electrica/motos-electricas-mejores-mercado/252041.html">
+<figure class="modulo-puede-interesarte-thumb--img">
+<img src=" https://www.formulamoto.es/wp-content/uploads/2021/07/zero-1_g.jpg" alt="Motos eléctricas: las mejores del mercado">
+</figure>
+</a>
+<div class="modulo-puede-interesarte-thumb--text">
+<div class="modulo-puede-interesarte--label label">
+<a href="https://www.formulamoto.es/electrica/">Motos Eléctricas</a> </div>
+<a href="https://www.formulamoto.es/electrica/motos-electricas-mejores-mercado/252041.html" title="Motos eléctricas: las mejores del mercado">
+<h2 class="title-font title-hero-little">
+Motos eléctricas: las mejores del mercado </h2>
+</a>
+</div>
+</article>
+
+<article class="col-sm p-0 modulo-puede-interesarte--thumb">
+<a href="https://www.formulamoto.es/megascooter/megascooters-peligro-extincion/266552.html">
+<figure class="modulo-puede-interesarte-thumb--img">
+<img src=" https://www.formulamoto.es/wp-content/uploads/2021/11/honda-forza-28_g.jpg" alt="Megascooters: una raza en peligro de extinción">
+</figure>
+</a>
+<div class="modulo-puede-interesarte-thumb--text">
+<div class="modulo-puede-interesarte--label label">
+<a href="https://www.formulamoto.es/megascooter/">Megascooter</a> </div>
+<a href="https://www.formulamoto.es/megascooter/megascooters-peligro-extincion/266552.html" title="Megascooters: una raza en peligro de extinción">
+<h2 class="title-font title-hero-little">
+Megascooters: una raza en peligro de extinción </h2>
+</a>
+</div>
+</article>
+
+<article class="col-sm p-0 modulo-puede-interesarte--thumb">
+<a href="https://www.formulamoto.es/tecnologia-accesorios/comprar-moto-invierno-tecnologia/264602.html">
+<figure class="modulo-puede-interesarte-thumb--img">
+<img src=" https://www.formulamoto.es/wp-content/uploads/2021/11/moto_invierno.jpg" alt="Razones por las que comprarse una moto nueva en invierno">
+</figure>
+</a>
+<div class="modulo-puede-interesarte-thumb--text">
+<div class="modulo-puede-interesarte--label label">
+<a href="https://www.formulamoto.es/tecnologia-accesorios/">Tecnología y Accesorios</a> </div>
+<a href="https://www.formulamoto.es/tecnologia-accesorios/comprar-moto-invierno-tecnologia/264602.html" title="Razones por las que comprarse una moto nueva en invierno">
+<h2 class="title-font title-hero-little">
+Razones por las que comprarse una moto nueva en invierno </h2>
+</a>
+</div>
+</article>
+</div>
+</div>
+</div>
+</section>
+<div class="entry-footer">
+<div class="OUTBRAIN" data-src="https://www.formulamoto.es/reportajes/20-motos-nuevas-baratas-mercado/53987.html" data-widget-id="AR_1">
+</div> <script type="43838a79995c9a311b940e2c-text/javascript" async="async" src="//widgets.outbrain.com/outbrain.js"></script>
+</div>
+<div class="infinite-scroll"></div>
+<div class="spinner" style="display: none;">
+<div class="bounce1"></div>
+<div class="bounce2"></div>
+<div class="bounce3"></div>
+</div>
+</div> 
+
+<div id="sidebar-posts" class="col-lg-4 col-12 pr-md-0 right-sidebar text-center two-col-section__banner">
+<section id="text-4" class="widget widget_text"> <div class="textwidget"><div id='roba1'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('roba1'); });
+  </script>
+</div>
+</div>
+</section><section id="media_image-7" class="widget widget_media_image"><h2 class="widget-title">Ya en tu kiosco</h2><a href="https://www.luike.com/producto/catalogo-scooting-no-21/"><img width="320" height="415" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" class="image wp-image-282737  attachment-full size-full ewww_webp" alt="" loading="lazy" style="max-width: 100%; height: auto;" sizes="(max-width: 320px) 100vw, 320px" data-src-img="https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1.jpg" data-src-webp="https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1.jpg.webp" data-srcset-webp="https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1.jpg.webp 320w, https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1-231x300.jpg.webp 231w" data-srcset-img="https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1.jpg 320w, https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1-231x300.jpg 231w" data-eio="j" /><noscript><img width="320" height="415" src="https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1.jpg" class="image wp-image-282737  attachment-full size-full" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1.jpg 320w, https://www.formulamoto.es/wp-content/uploads/2022/01/CATSC21-1-231x300.jpg 231w" sizes="(max-width: 320px) 100vw, 320px" /></noscript></a></section><section id="text-8" class="widget widget_text"> <div class="textwidget"><div id='roba2'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('roba2'); });
+  </script>
+</div>
+</div>
+</section><section id="nav_menu-9" class="widget widget_nav_menu"><h2 class="widget-title">Buscar información por marca de motos</h2><div class="menu-informacion-por-marca-de-motos-container"><ul id="menu-informacion-por-marca-de-motos" class="menu"><li id="menu-item-244206" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244206"><a href="https://www.formulamoto.es/kymco/">Kymco</a></li>
+<li id="menu-item-244216" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244216"><a href="https://www.formulamoto.es/bmw/">BMW</a></li>
+<li id="menu-item-244207" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244207"><a href="https://www.formulamoto.es/honda/">Honda</a></li>
+<li id="menu-item-244217" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244217"><a href="https://www.formulamoto.es/ktm/">KTM</a></li>
+<li id="menu-item-244208" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244208"><a href="https://www.formulamoto.es/yamaha/">Yamaha</a></li>
+<li id="menu-item-244218" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244218"><a href="https://www.formulamoto.es/daelim/">Daelim</a></li>
+<li id="menu-item-244209" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244209"><a href="https://www.formulamoto.es/suzuki/">Suzuki</a></li>
+<li id="menu-item-244219" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244219"><a href="https://www.formulamoto.es/vespa/">Vespa</a></li>
+<li id="menu-item-244210" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244210"><a href="https://www.formulamoto.es/ducati/">Ducati</a></li>
+<li id="menu-item-244220" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244220"><a href="https://www.formulamoto.es/triumph/">Triumph</a></li>
+<li id="menu-item-244211" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244211"><a href="https://www.formulamoto.es/kawasaki/">Kawasaki</a></li>
+<li id="menu-item-244221" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244221"><a href="https://www.formulamoto.es/aprilia/">Aprilia</a></li>
+<li id="menu-item-244214" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244214"><a href="https://www.formulamoto.es/x-max-125/">Yamaha XMAX</a></li>
+<li id="menu-item-244222" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244222"><a href="https://www.formulamoto.es/harley-davidson/">Harley Davidson</a></li>
+<li id="menu-item-244212" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244212"><a href="https://www.formulamoto.es/piaggio/">Piaggio</a></li>
+<li id="menu-item-244213" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244213"><a href="https://www.formulamoto.es/pcx-125/">Honda PCX</a></li>
+<li id="menu-item-244223" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244223"><a href="https://www.formulamoto.es/agility-city-125/">Kymco Agility City</a></li>
+<li id="menu-item-244215" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244215"><a href="https://www.formulamoto.es/r1200-gs/">BMW R1200 GS</a></li>
+<li id="menu-item-244224" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244224"><a href="https://www.formulamoto.es/bonneville/">Triumph Bonneville</a></li>
+<li id="menu-item-244225" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244225"><a href="https://www.formulamoto.es/z800/">Kawasaki Z800</a></li>
+<li id="menu-item-244226" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244226"><a href="https://www.formulamoto.es/sym/">SYM Symphony</a></li>
+<li id="menu-item-244227" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244227"><a href="https://www.formulamoto.es/nmax-125/">Yamaha NMAX</a></li>
+<li id="menu-item-244228" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244228"><a href="https://www.formulamoto.es/hypermotard/">Ducati Hypermotard</a></li>
+<li id="menu-item-244229" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244229"><a href="https://www.formulamoto.es/burgman-125/">Suzuki Burgman</a></li>
+<li id="menu-item-244232" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244232"><a href="https://www.formulamoto.es/beverly/">Piaggio Beverly</a></li>
+<li id="menu-item-244233" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244233"><a href="https://www.formulamoto.es/scoopy-125i/">Honda Scoopy 125</a></li>
+<li id="menu-item-244234" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244234"><a href="https://www.formulamoto.es/t-max/">Yamaha T-Max 530</a></li>
+<li id="menu-item-244236" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244236"><a href="https://www.formulamoto.es/mt-07/">Yamaha MT-07</a></li>
+<li id="menu-item-244237" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244237"><a href="https://www.formulamoto.es/scrambler-ducati/">Scrambler Ducati</a></li>
+<li id="menu-item-244238" class="col-6 menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244238"><a href="https://www.formulamoto.es/forza-125/">Forza 125</a></li>
+<li id="menu-item-244239" class="last menu-item menu-item-type-taxonomy menu-item-object-category menu-item-244239"><a href="https://www.formulamoto.es/marcas/">Ver todas las marcas de motos »</a></li>
+</ul></div></section><section id="text-16" class="widget widget_text"> <div class="textwidget"><div id='roba3'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('roba3'); });
+  </script>
+</div>
+</div>
+</section><section id="media_image-4" class="widget widget_media_image"><h2 class="widget-title">Suscríbete a la newsletter</h2><a href="https://news.luike.com/registro-formulamoto-luike-news"><img width="300" height="190" src="https://www.formulamoto.es/wp-content/uploads/2021/05/email-4044165_640-300x190.jpg" class="image wp-image-244801  attachment-medium size-medium" alt="" loading="lazy" style="max-width: 100%; height: auto;" srcset="https://www.formulamoto.es/wp-content/uploads/2021/05/email-4044165_640-300x190.jpg 300w, https://www.formulamoto.es/wp-content/uploads/2021/05/email-4044165_640.jpg 640w" sizes="(max-width: 300px) 100vw, 300px" /></a></section><section id="text-17" class="widget widget_text"> <div class="textwidget"> <div id='roba4'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+            googletag.cmd.push(function() { googletag.display('roba4'); });
+        </script>
+</div>
+</div>
+</section> </div>
+</div>
+</div>
+</div>
+<div class="col-2 d-none d-xl-block two-col-section__banner">
+<div class="two-col-section__banner--wrapper">
+<div id='sky-derecho'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+    googletag.cmd.push(function() { googletag.display('sky-derecho'); });
+  </script>
+</div> </div>
+</div>
+</div>
+</div>
+</section>
+
+<div class="buscador-all">
+<div class="buscador-all--search d-flex align-items-center justify-content-center">
+<div class="buscador-wrapper">
+<form action="/">
+<input type="search" id="site-search" name="s" aria-label="Buscar vehículo, modelo, marca, asunto..." placeholder="Buscar vehículo, modelo, marca, asunto,...">
+<button class="buscador-all-search--btn">Search</button>
+</form>
+<a href="#" class="icon-search-overlayer-close"></a>
+</div>
+</div>
+<div class="buscador-all--content">
+
+<div class="buscador-all-content--labels">
+<div class="buscador-wrapper">
+<span class="title-search--labels">QUIZÁS PUEDA INTERESARTE</span>
+<ul>
+<li><a href="/reportajes/" class="labels">Reportajes</a></li>
+<li><a href="/marcas/" class="labels">Listado de Marcas</a></li>
+<li><a href="/actualidad/" class="labels">Actualidad</a></li>
+<li><a href="/tecnologia/" class="labels">Tecnología</a></li>
+<li><a href="/nuevos-modelos/" class="labels">Nuevos Modelos</a></li>
+</ul>
+</div>
+</div>
+
+<div class="buscador-wrapper modulo-modelo--intro">
+<div class="col-12 col-lg-9">
+
+<div class="modulo-modelo-intro--filtro container-md mb-4">
+<div class="row">
+<div class="col-12 col-md-3 px-1">
+<select name="marcas" id="marca_filter" class="w-100 marca_filter">
+<option value="">Seleccione Marca</option>
+<option value="todos" data-id="-1">Todos</option>
+<option value="aeon" data-id="6">Aeon</option>
+<option value="aiyumo" data-id="7">Aiyumo</option>
+<option value="ajp" data-id="3">AJP</option>
+<option value="alpina" data-id="8">Alpina</option>
+<option value="aprilia" data-id="9">Aprilia</option>
+<option value="arch-motorcycles" data-id="2679">Arch Motorcycles</option>
+<option value="ariel" data-id="2435">Ariel</option>
+<option value="ariic" data-id="2780">Ariic</option>
+<option value="benelli" data-id="12">Benelli</option>
+<option value="beta" data-id="13">Beta</option>
+<option value="bimota" data-id="14">Bimota</option>
+<option value="bmw" data-id="11">BMW</option>
+<option value="brixton" data-id="2724">Brixton</option>
+<option value="brough-superior" data-id="2334">Brough Superior</option>
+<option value="buell" data-id="15">Buell</option>
+<option value="bultaco" data-id="2404">Bultaco</option>
+<option value="cagiva" data-id="18">Cagiva</option>
+<option value="can-am" data-id="19">Can-Am</option>
+<option value="cf-moto" data-id="198">CF Moto</option>
+<option value="clipic" data-id="20">Clipic</option>
+<option value="confederate" data-id="21">Confederate</option>
+<option value="cooltra" data-id="22">Cooltra</option>
+<option value="crs" data-id="16">CR&amp;S</option>
+<option value="daelim" data-id="25">Daelim</option>
+<option value="derbi" data-id="26">Derbi</option>
+<option value="dorton" data-id="28">Dorton</option>
+<option value="ducati" data-id="29">Ducati</option>
+<option value="ebr" data-id="2397">EBR</option>
+<option value="energica" data-id="2467">ENERGICA</option>
+<option value="eric-buell" data-id="30">Eric Buell</option>
+<option value="fantic" data-id="2707">Fantic</option>
+<option value="fgr" data-id="32">FGR</option>
+<option value="gas-gas" data-id="33">Gas Gas</option>
+<option value="generic" data-id="34">Generic</option>
+<option value="gilera" data-id="35">Gilera</option>
+<option value="goes" data-id="37">Goes</option>
+<option value="hanway" data-id="2438">Hanway</option>
+ <option value="harley-davidson" data-id="40">Harley-Davidson</option>
+<option value="hm" data-id="39">HM</option>
+<option value="honda" data-id="42">Honda</option>
+<option value="horex" data-id="43">Horex</option>
+<option value="hudson-boss" data-id="2670">Hudson Boss</option>
+<option value="huoniao" data-id="45">Huoniao</option>
+<option value="husqvarna" data-id="47">Husqvarna</option>
+<option value="hyosung" data-id="48">Hyosung</option>
+<option value="i-moto" data-id="49">I-Moto</option>
+<option value="indian" data-id="50">Indian</option>
+<option value="innocenti" data-id="2511">Innocenti</option>
+<option value="invicta-electric" data-id="6682">Invicta Electric</option>
+<option value="italjet" data-id="146">Italjet</option>
+<option value="jtg" data-id="51">JTG</option>
+<option value="kawasaki" data-id="55">Kawasaki</option>
+<option value="keeway" data-id="56">Keeway</option>
+<option value="kenrod" data-id="57">Kenrod</option>
+<option value="ktm" data-id="54">KTM</option>
+<option value="kymco" data-id="58">Kymco</option>
+<option value="lambretta" data-id="60">Lambretta</option>
+<option value="leonart" data-id="61">Leonart</option>
+<option value="lifan" data-id="62">Lifan</option>
+<option value="linhai" data-id="63">Linhai</option>
+<option value="lml" data-id="59">LML</option>
+<option value="macbor" data-id="2671">Macbor</option>
+<option value="malaguti" data-id="67">Malaguti</option>
+<option value="mash" data-id="2426">Mash</option>
+<option value="megelli" data-id="147">Megelli</option>
+<option value="mh" data-id="64">MH</option>
+<option value="mitt" data-id="2716">MITT</option>
+<option value="mondial" data-id="2662">Mondial</option>
+<option value="monkey-bikes" data-id="71">Monkey Bikes</option>
+<option value="montesa" data-id="72">Montesa</option>
+<option value="motivas" data-id="73">Motivas</option>
+<option value="moto-guzzi" data-id="74">Moto Guzzi</option>
+<option value="moto-morini" data-id="75">Moto Morini</option>
+<option value="motron" data-id="2498">Motron</option>
+<option value="mtr" data-id="65">MTR</option>
+<option value="mustang-125" data-id="2604">Mustang 125</option>
+<option value="mv-agusta" data-id="66">MV Agusta</option>
+<option value="mx-motor" data-id="76">MxMotor</option>
+<option value="niu" data-id="2689">NIU</option>
+<option value="norton" data-id="81">Norton</option>
+<option value="orcal" data-id="2452">Orcal</option>
+<option value="ossa" data-id="82">Ossa</option>
+<option value="peugeot" data-id="85">Peugeot</option>
+<option value="pgo" data-id="83">PGO</option>
+<option value="piaggio" data-id="86">Piaggio</option>
+<option value="polini" data-id="87">Polini</option>
+<option value="pursang" data-id="2479">Pursang</option>
+<option value="quadro" data-id="89">Quadro</option>
+<option value="quantya" data-id="90">Quantya</option>
+<option value="ray" data-id="6728">Ray</option>
+<option value="rieju" data-id="91">Rieju</option>
+<option value="royal-enfield" data-id="93">Royal Enfield</option>
+<option value="scomadi" data-id="2568">Scomadi</option>
+<option value="scorpa" data-id="97">Scorpa</option>
+<option value="scrambler-ducati" data-id="2449">Scrambler Ducati</option>
+<option value="seat" data-id="6582">SEAT</option>
+<option value="sherco" data-id="98">Sherco</option>
+<option value="silence" data-id="2753">Silence</option>
+<option value="soriano" data-id="6731">Soriano</option>
+<option value="sumco" data-id="100">Sumco</option>
+<option value="super-soco" data-id="2465">Super Soco</option>
+<option value="suzuki" data-id="101">Suzuki</option>
+<option value="swm" data-id="2755">SWM</option>
+<option value="sym" data-id="94">SYM</option>
+<option value="tgb" data-id="102">TGB</option>
+<option value="tm" data-id="103">TM</option>
+<option value="triumph" data-id="104">Triumph</option>
+<option value="trs" data-id="6642">TRS</option>
+<option value="um-motorcycles" data-id="2703">UM Motorcycles</option>
+<option value="ural" data-id="105">Ural</option>
+<option value="vectrix" data-id="107">Vectrix</option>
+<option value="vespa" data-id="108">Vespa</option>
+<option value="victory" data-id="109">Victory</option>
+<option value="voge" data-id="2758">Voge</option>
+<option value="volta" data-id="2315">Volta</option>
+<option value="voxan" data-id="110">Voxan</option>
+<option value="xispa" data-id="113">Xispa</option>
+<option value="yamaha" data-id="114">Yamaha</option>
+<option value="zero" data-id="2306">Zero</option>
+<option value="zontes" data-id="2749">Zontes</option>
+</select>
+</div>
+<div class="col-12 col-md-3 px-1">
+<select name="modelos" id="modelo_filter" class="w-100 modelo_filter">
+<option value="">Seleccione Modelo</option>
+</select>
+</div>
+<div class="col-12 col-md-3 px-1">
+<select name="seccion" id="seccion_filter" class="w-100 seccion_filter">
+<option value="">Secciones</option>
+<option value="pruebas">Pruebas</option>
+<option value="comparativas">Comparativas</option>
+<option value="novedades">Novedades</option>
+<option value="reportajes">Reportajes</option>
+<option value="">Otras Secciones</option>
+</select>
+</div>
+<div class="col-12 col-md-3 px-1">
+<a href="" class="modulo-modelo-intro--filtro-action modulo_modelo_intro__link" id="modulo_modelo_intro__link">
+<div class="text-button-two">Encuentrálo todo</div>
+</a>
+</div>
+</div>
+</div> </div>
+</div>
+</div>
+</div>
+</div>
+<footer class="site-footer" id="colophon">
+
+<div class="conteiner-fluid footer-pre">
+<div class="container-md">
+<div class="row">
+<div class="col footer-pre--logo text-left">
+<img width="188" height="34" src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/formulamoto.png?v=1642076015" alt="Formulamoto">
+</div>
+<ul class="col footer-pre--social">
+<li>
+<a href="https://www.instagram.com/formulamotoes/" class="social-icon instagram" target="_blank" title="Instagram">
+<svg class="svg-icon" width="40" height="40" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M12,4.622c2.403,0,2.688,0.009,3.637,0.052c0.877,0.04,1.354,0.187,1.671,0.31c0.42,0.163,0.72,0.358,1.035,0.673 c0.315,0.315,0.51,0.615,0.673,1.035c0.123,0.317,0.27,0.794,0.31,1.671c0.043,0.949,0.052,1.234,0.052,3.637 s-0.009,2.688-0.052,3.637c-0.04,0.877-0.187,1.354-0.31,1.671c-0.163,0.42-0.358,0.72-0.673,1.035 c-0.315,0.315-0.615,0.51-1.035,0.673c-0.317,0.123-0.794,0.27-1.671,0.31c-0.949,0.043-1.233,0.052-3.637,0.052 s-2.688-0.009-3.637-0.052c-0.877-0.04-1.354-0.187-1.671-0.31c-0.42-0.163-0.72-0.358-1.035-0.673 c-0.315-0.315-0.51-0.615-0.673-1.035c-0.123-0.317-0.27-0.794-0.31-1.671C4.631,14.688,4.622,14.403,4.622,12 s0.009-2.688,0.052-3.637c0.04-0.877,0.187-1.354,0.31-1.671c0.163-0.42,0.358-0.72,0.673-1.035 c0.315-0.315,0.615-0.51,1.035-0.673c0.317-0.123,0.794-0.27,1.671-0.31C9.312,4.631,9.597,4.622,12,4.622 M12,3 C9.556,3,9.249,3.01,8.289,3.054C7.331,3.098,6.677,3.25,6.105,3.472C5.513,3.702,5.011,4.01,4.511,4.511 c-0.5,0.5-0.808,1.002-1.038,1.594C3.25,6.677,3.098,7.331,3.054,8.289C3.01,9.249,3,9.556,3,12c0,2.444,0.01,2.751,0.054,3.711 c0.044,0.958,0.196,1.612,0.418,2.185c0.23,0.592,0.538,1.094,1.038,1.594c0.5,0.5,1.002,0.808,1.594,1.038 c0.572,0.222,1.227,0.375,2.185,0.418C9.249,20.99,9.556,21,12,21s2.751-0.01,3.711-0.054c0.958-0.044,1.612-0.196,2.185-0.418 c0.592-0.23,1.094-0.538,1.594-1.038c0.5-0.5,0.808-1.002,1.038-1.594c0.222-0.572,0.375-1.227,0.418-2.185 C20.99,14.751,21,14.444,21,12s-0.01-2.751-0.054-3.711c-0.044-0.958-0.196-1.612-0.418-2.185c-0.23-0.592-0.538-1.094-1.038-1.594 c-0.5-0.5-1.002-0.808-1.594-1.038c-0.572-0.222-1.227-0.375-2.185-0.418C14.751,3.01,14.444,3,12,3L12,3z M12,7.378 c-2.552,0-4.622,2.069-4.622,4.622S9.448,16.622,12,16.622s4.622-2.069,4.622-4.622S14.552,7.378,12,7.378z M12,15 c-1.657,0-3-1.343-3-3s1.343-3,3-3s3,1.343,3,3S13.657,15,12,15z M16.804,6.116c-0.596,0-1.08,0.484-1.08,1.08 s0.484,1.08,1.08,1.08c0.596,0,1.08-0.484,1.08-1.08S17.401,6.116,16.804,6.116z"></path></svg> </a>
+</li>
+<li>
+<a href="https://www.facebook.com/formulamoto/" class="social-icon facebook" target="_blank" title="Facebook">
+<svg class="svg-icon" width="40" height="40" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M13.7415175,22 L13.7415175,12.877114 L16.8037814,12.877114 L17.2622427,9.32169968 L13.7415175,9.32169968 L13.7415175,7.05172475 C13.7415175,6.02234933 14.0273276,5.32079935 15.503513,5.32079935 L17.3862585,5.32000494 L17.3862585,2.1400805 C17.0605515,2.09682943 15.9429969,2 14.6428168,2 C11.9284151,2 10.0700314,3.65686898 10.0700314,6.69971401 L10.0700314,9.32169968 L7,9.32169968 L7,12.877114 L10.0700314,12.877114 L10.0700314,22 L13.7415175,22 Z"></path></svg> </a>
+</li>
+<li>
+<a href="https://twitter.com/formulamoto" class="social-icon twitter" target="_blank" title="Twitter">
+<svg class="svg-icon" width="40" height="40" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M8.2896,20.2511752 C15.8368,20.2511752 19.9648,13.9983752 19.9648,8.57597523 C19.9648,8.39837523 19.9648,8.22157523 19.9528,8.04557523 C20.7558651,7.46470391 21.4490844,6.74547875 22,5.92157523 C21.2511033,6.25341665 20.4566635,6.47103815 19.6432,6.56717523 C20.4997952,6.05436087 21.1408988,5.24779281 21.4472,4.29757523 C20.641726,4.77553947 19.7605169,5.11238485 18.8416,5.29357523 C17.5696662,3.94109065 15.5485755,3.61006529 13.9116395,4.48611917 C12.2747034,5.36217305 11.42902,7.22743581 11.8488,9.03597523 C8.54951659,8.87057486 5.47558063,7.31223385 3.392,4.74877523 C2.30289821,6.62369101 2.85919031,9.02226281 4.6624,10.2263752 C4.00939296,10.2070213 3.3706235,10.0308658 2.8,9.71277523 L2.8,9.76477523 C2.80053451,11.7180496 4.17740119,13.4004034 6.092,13.7871752 C5.48789567,13.9519273 4.85406447,13.9760106 4.2392,13.8575752 C4.77675835,15.5291135 6.31725965,16.6742023 8.0728,16.7071752 C6.61978803,17.8491208 4.82484761,18.4690374 2.9768,18.4671752 C2.65032285,18.4665485 2.32416325,18.4467812 2,18.4079752 C3.87650876,19.6121965 6.05993072,20.2509487 8.2896,20.2479752"></path></svg> </a>
+</li>
+<li>
+<a href="https://www.youtube.com/channel/UCCz4ckjYz4ET9sHQAezBohw/feed" class="social-icon youtube" target="_blank" title="Youtube">
+<svg class="svg-icon" width="40" height="40" aria-hidden="true" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M21.8,8.001c0,0-0.195-1.378-0.795-1.985c-0.76-0.797-1.613-0.801-2.004-0.847c-2.799-0.202-6.997-0.202-6.997-0.202 h-0.009c0,0-4.198,0-6.997,0.202C4.608,5.216,3.756,5.22,2.995,6.016C2.395,6.623,2.2,8.001,2.2,8.001S2,9.62,2,11.238v1.517 c0,1.618,0.2,3.237,0.2,3.237s0.195,1.378,0.795,1.985c0.761,0.797,1.76,0.771,2.205,0.855c1.6,0.153,6.8,0.201,6.8,0.201 s4.203-0.006,7.001-0.209c0.391-0.047,1.243-0.051,2.004-0.847c0.6-0.607,0.795-1.985,0.795-1.985s0.2-1.618,0.2-3.237v-1.517 C22,9.62,21.8,8.001,21.8,8.001z M9.935,14.594l-0.001-5.62l5.404,2.82L9.935,14.594z"></path></svg> </a>
+</li>
+</ul>
+</div>
+</div>
+</div>
+
+<div class="container-fluid footer-princ">
+<div class="container">
+<div class="row">
+<div class="col-12 d-block d-sm-none text-center mb-3">
+<img id="logo-footer-mobile" src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/formulamoto.png?v=1642076015" alt="Formulamoto">
+</div>
+<div class="col-12 col-sm-3 footer-princ-acordeon"><h5>INFORMACIÓN</h5><div class="menu-footer-1-container"><ul id="menu-footer-1" class="menu"><li id="menu-item-94" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-94"><a href="https://www.formulamoto.es/marcas/">Marcas y modelos</a></li>
+<li id="menu-item-95" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-95"><a href="https://motosnuevas.formulamoto.es/">Precios de motos nuevas</a></li>
+<li id="menu-item-97" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-97"><a href="https://www.formulamoto.es/preparaciones-especiales/">Preparaciones de motos</a></li>
+<li id="menu-item-96" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-96"><a href="https://motossegundamano.formulamoto.es/">Motos de ocasión</a></li>
+<li id="menu-item-98" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-98"><a href="https://www.formulamoto.es/viajes-rutas/">Rutas y viajes en moto</a></li>
+<li id="menu-item-99" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-99"><a href="https://www.formulamoto.es/zona-competicion/">Competición</a></li>
+<li id="menu-item-100" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-100"><a href="https://www.formulamoto.es/firmas-blogs/">Blogs y firmas</a></li>
+</ul></div></div>
+<div class="col-12 col-sm-3 footer-princ-acordeon"><h5> REPORTAJES</h5><div class="menu-footer-2-container"><ul id="menu-footer-2" class="menu"><li id="menu-item-101" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-101"><a href="https://www.formulamoto.es/pruebas/">Pruebas</a></li>
+<li id="menu-item-102" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-102"><a href="https://www.formulamoto.es/novedades/">Novedades</a></li>
+<li id="menu-item-105" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-105"><a href="https://www.formulamoto.es/permisos-normativas/">Carné A2 Moto</a></li>
+<li id="menu-item-104" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-104"><a href="https://www.formulamoto.es/equipamiento/">Equipamiento y accesorios</a></li>
+<li id="menu-item-106" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-106"><a href="https://www.formulamoto.es/seguridad/">Seguridad</a></li>
+<li id="menu-item-107" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-107"><a href="https://www.formulamoto.es/pilotos-leyenda/">Pilotos de leyenda</a></li>
+<li id="menu-item-108" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-108"><a href="https://www.formulamoto.es/motos-moteros/">Motos y moteros</a></li>
+</ul></div></div>
+<div class="col-12 col-sm-3 footer-princ-acordeon"><h5>SERVICIOS</h5><div class="menu-footer-3-container"><ul id="menu-footer-3" class="menu"><li id="menu-item-109" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-109"><a href="https://motosnuevas.formulamoto.es/comparador-seguros-motos.php">Calcula tu seguro</a></li>
+<li id="menu-item-110" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-110"><a href="https://www.formulamoto.es/neumaticos-michelin/">Neumáticos</a></li>
+<li id="menu-item-112" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-112"><a href="https://www.formulamoto.es/concursos/">Concursos</a></li>
+<li id="menu-item-111" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-111"><a href="https://www.formulamoto.es/consultorio/">Consultorio</a></li>
+<li id="menu-item-114" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-114"><a href="https://www.luike.com/kiosco/ediciones-impresas/">Kiosco Luike</a></li>
+<li id="menu-item-115" class="menu-item menu-item-type-taxonomy menu-item-object-category current-post-ancestor current-menu-parent current-post-parent menu-item-115"><a href="https://www.formulamoto.es/chollos/">Ofertas de motos</a></li>
+<li id="menu-item-113" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-113"><a href="https://www.formulamoto.es/scooter/">Scooter</a></li>
+</ul></div></div> <div class="col-12 col-sm-3 footer-princ-acordeon"><h5>ACERCA DE</h5><div class="menu-footer-4-container"><ul id="menu-footer-4" class="menu"><li id="menu-item-116" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-116"><a href="https://www.luike.com/empresa/">Sobre Nosotros</a></li>
+<li id="menu-item-117" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-117"><a href="https://www.luike.com/publicidad/">Publicidad</a></li>
+<li id="menu-item-118" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-118"><a href="https://www.luike.com/kiosco/">Suscríbete a la Revista</a></li>
+<li id="menu-item-119" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"><a href="https://www.youtube.com/channel/UCCz4ckjYz4ET9sHQAezBohw/feed">Vídeos</a></li>
+</ul></div></div> </div>
+</div>
+</div>
+<div class="container-fluid footer-last">
+<div class="container-md">
+<div class="row">
+<ul class="footer-last--legals">
+<li><a href="/aviso-legal" target="_blank">Aviso Legal</a></li>
+<li><a href="/datos-editorial" target="_blank">Datos editorial</a></li>
+<li><a href="/politica-privacidad" target="_blank">Política de privacidad</a></li>
+<li><a href="/politica-cookies" target="_blank">Política de cookies</a></li>
+</ul>
+<div class="footer-last--copyright text-left">© LUIKE 2021</div>
+<div class="footer-last--luike text-right">
+<a href="/" title="Ir a la página de inicio"><img src="https://www.formulamoto.es/wp-content/themes/formulamoto/img/full_logo_luike_2021.png" alt="Logo Luike"></a>
+</div>
+</div>
+</div>
+</div>
+</footer>
+
+<div id="luike-catfish" class="catfish-start">
+<div id="container-catfish" class="catfish-space">
+<button id="catfish-btn"></button>
+</div>
+
+<div id='skin'>
+<script type="43838a79995c9a311b940e2c-text/javascript">
+					googletag.cmd.push(function() { googletag.display('skin'); });
+				</script>
+</div>
+</div>
+<script type="43838a79995c9a311b940e2c-text/javascript" id='rocket-browser-checker-js-after'>
+"use strict";var _createClass=function(){function defineProperties(target,props){for(var i=0;i<props.length;i++){var descriptor=props[i];descriptor.enumerable=descriptor.enumerable||!1,descriptor.configurable=!0,"value"in descriptor&&(descriptor.writable=!0),Object.defineProperty(target,descriptor.key,descriptor)}}return function(Constructor,protoProps,staticProps){return protoProps&&defineProperties(Constructor.prototype,protoProps),staticProps&&defineProperties(Constructor,staticProps),Constructor}}();function _classCallCheck(instance,Constructor){if(!(instance instanceof Constructor))throw new TypeError("Cannot call a class as a function")}var RocketBrowserCompatibilityChecker=function(){function RocketBrowserCompatibilityChecker(options){_classCallCheck(this,RocketBrowserCompatibilityChecker),this.passiveSupported=!1,this._checkPassiveOption(this),this.options=!!this.passiveSupported&&options}return _createClass(RocketBrowserCompatibilityChecker,[{key:"_checkPassiveOption",value:function(self){try{var options={get passive(){return!(self.passiveSupported=!0)}};window.addEventListener("test",null,options),window.removeEventListener("test",null,options)}catch(err){self.passiveSupported=!1}}},{key:"initRequestIdleCallback",value:function(){!1 in window&&(window.requestIdleCallback=function(cb){var start=Date.now();return setTimeout(function(){cb({didTimeout:!1,timeRemaining:function(){return Math.max(0,50-(Date.now()-start))}})},1)}),!1 in window&&(window.cancelIdleCallback=function(id){return clearTimeout(id)})}},{key:"isDataSaverModeOn",value:function(){return"connection"in navigator&&!0===navigator.connection.saveData}},{key:"supportsLinkPrefetch",value:function(){var elem=document.createElement("link");return elem.relList&&elem.relList.supports&&elem.relList.supports("prefetch")&&window.IntersectionObserver&&"isIntersecting"in IntersectionObserverEntry.prototype}},{key:"isSlowConnection",value:function(){return"connection"in navigator&&"effectiveType"in navigator.connection&&("2g"===navigator.connection.effectiveType||"slow-2g"===navigator.connection.effectiveType)}}]),RocketBrowserCompatibilityChecker}();
+</script>
+<script type="43838a79995c9a311b940e2c-text/javascript" id='rocket-preload-links-js-extra'>
+/* <![CDATA[ */
+var RocketPreloadLinksConfig = {"excludeUris":"\/(.+\/)?feed\/?.+\/?|\/(?:.+\/)?embed\/|\/(index\\.php\/)?wp\\-json(\/.*|$)|\/wp-admin|\/logout","usesTrailingSlash":"","imageExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif","fileExt":"jpg|jpeg|gif|png|tiff|bmp|webp|avif|php|pdf|html|htm","siteUrl":"https:\/\/www.formulamoto.es","onHoverDelay":"100","rateThrottle":"3"};
+/* ]]> */
+</script>
+<script type="43838a79995c9a311b940e2c-text/javascript" id='rocket-preload-links-js-after'>
+(function() {
+"use strict";var r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(e){return typeof e}:function(e){return e&&"function"==typeof Symbol&&e.constructor===Symbol&&e!==Symbol.prototype?"symbol":typeof e},e=function(){function i(e,t){for(var n=0;n<t.length;n++){var i=t[n];i.enumerable=i.enumerable||!1,i.configurable=!0,"value"in i&&(i.writable=!0),Object.defineProperty(e,i.key,i)}}return function(e,t,n){return t&&i(e.prototype,t),n&&i(e,n),e}}();function i(e,t){if(!(e instanceof t))throw new TypeError("Cannot call a class as a function")}var t=function(){function n(e,t){i(this,n),this.browser=e,this.config=t,this.options=this.browser.options,this.prefetched=new Set,this.eventTime=null,this.threshold=1111,this.numOnHover=0}return e(n,[{key:"init",value:function(){!this.browser.supportsLinkPrefetch()||this.browser.isDataSaverModeOn()||this.browser.isSlowConnection()||(this.regex={excludeUris:RegExp(this.config.excludeUris,"i"),images:RegExp(".("+this.config.imageExt+")$","i"),fileExt:RegExp(".("+this.config.fileExt+")$","i")},this._initListeners(this))}},{key:"_initListeners",value:function(e){-1<this.config.onHoverDelay&&document.addEventListener("mouseover",e.listener.bind(e),e.listenerOptions),document.addEventListener("mousedown",e.listener.bind(e),e.listenerOptions),document.addEventListener("touchstart",e.listener.bind(e),e.listenerOptions)}},{key:"listener",value:function(e){var t=e.target.closest("a"),n=this._prepareUrl(t);if(null!==n)switch(e.type){case"mousedown":case"touchstart":this._addPrefetchLink(n);break;case"mouseover":this._earlyPrefetch(t,n,"mouseout")}}},{key:"_earlyPrefetch",value:function(t,e,n){var i=this,r=setTimeout(function(){if(r=null,0===i.numOnHover)setTimeout(function(){return i.numOnHover=0},1e3);else if(i.numOnHover>i.config.rateThrottle)return;i.numOnHover++,i._addPrefetchLink(e)},this.config.onHoverDelay);t.addEventListener(n,function e(){t.removeEventListener(n,e,{passive:!0}),null!==r&&(clearTimeout(r),r=null)},{passive:!0})}},{key:"_addPrefetchLink",value:function(i){return this.prefetched.add(i.href),new Promise(function(e,t){var n=document.createElement("link");n.rel="prefetch",n.href=i.href,n.onload=e,n.onerror=t,document.head.appendChild(n)}).catch(function(){})}},{key:"_prepareUrl",value:function(e){if(null===e||"object"!==(void 0===e?"undefined":r(e))||!1 in e||-1===["http:","https:"].indexOf(e.protocol))return null;var t=e.href.substring(0,this.config.siteUrl.length),n=this._getPathname(e.href,t),i={original:e.href,protocol:e.protocol,origin:t,pathname:n,href:t+n};return this._isLinkOk(i)?i:null}},{key:"_getPathname",value:function(e,t){var n=t?e.substring(this.config.siteUrl.length):e;return n.startsWith("/")||(n="/"+n),this._shouldAddTrailingSlash(n)?n+"/":n}},{key:"_shouldAddTrailingSlash",value:function(e){return this.config.usesTrailingSlash&&!e.endsWith("/")&&!this.regex.fileExt.test(e)}},{key:"_isLinkOk",value:function(e){return null!==e&&"object"===(void 0===e?"undefined":r(e))&&(!this.prefetched.has(e.href)&&e.origin===this.config.siteUrl&&-1===e.href.indexOf("?")&&-1===e.href.indexOf("#")&&!this.regex.excludeUris.test(e.href)&&!this.regex.images.test(e.href))}}],[{key:"run",value:function(){"undefined"!=typeof RocketPreloadLinksConfig&&new n(new RocketBrowserCompatibilityChecker({capture:!0,passive:!0}),RocketPreloadLinksConfig).init()}}]),n}();t.run();
+}());
+</script>
+<script type="43838a79995c9a311b940e2c-text/javascript" id='understrap-scripts-js-extra'>
+/* <![CDATA[ */
+var ajax_var = {"url_terms":"https:\/\/www.formulamoto.es\/wp-json\/wp\/v2\/category_terms","url_categories":"https:\/\/www.formulamoto.es\/wp-json\/wp\/v2\/categories","url_model_specs":"https:\/\/www.formulamoto.es\/wp-json\/wp\/v2\/model_specs","url_posts_years":"https:\/\/www.formulamoto.es\/wp-json\/wp\/v2\/posts_in_years","get_models":"https:\/\/www.formulamoto.es\/wp-json\/wp\/v2\/models","default_img":"https:\/\/www.formulamoto.es\/wp-content\/themes\/formulamoto\/img\/default.png","default_logo":"https:\/\/www.formulamoto.es\/wp-content\/themes\/formulamoto\/img\/icon-af.jpg","nonce":"0efd77fc77"};
+var comparer_resources = {"ajaxurl":"https:\/\/www.formulamoto.es\/wp-admin\/admin-ajax.php"};
+var getModelos = {"ajaxurl":"https:\/\/www.formulamoto.es\/wp-admin\/admin-ajax.php"};
+/* ]]> */
+</script>
+<script type="43838a79995c9a311b940e2c-text/javascript" src='https://www.formulamoto.es/wp-content/themes/formulamoto/js/theme.min.js?ver=1.0.0.1644221398' id='understrap-scripts-js'></script>
+<script type="43838a79995c9a311b940e2c-text/javascript" src='https://www.formulamoto.es/wp-includes/js/wp-embed.min.js?ver=5.8.1' id='wp-embed-js'></script>
+<script type="43838a79995c9a311b940e2c-text/javascript" src='https://cdn.onesignal.com/sdks/OneSignalSDK.js?ver=5.8.1' async='async' id='remote_sdk-js'></script>
+<script type="43838a79995c9a311b940e2c-text/javascript" id="slb_context">/* <![CDATA[ */if ( !!window.jQuery ) {(function($){$(document).ready(function(){if ( !!window.SLB ) { {$.extend(SLB, {"context":["public","user_guest"]});} }})})(jQuery);}/* ]]> */</script>
+<script src="/cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="43838a79995c9a311b940e2c-|49" defer=""></script><script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"6e325c68195411bf","version":"2021.12.0","r":1,"token":"ef466b80db324edda6a1cf7e06232993","si":100}' crossorigin="anonymous"></script>
+</body>
+</html>
+
