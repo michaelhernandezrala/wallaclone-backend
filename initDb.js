@@ -10,7 +10,7 @@ const { askUser } = require("./lib/utils");
 const { mongoose, Ads, Users } = require("./models");
 const { connectMongoose } = require("./lib/connectMongoose");
 
-const ADS_JSON = "./ads.json";
+const ADVERTS_JSON = "./adverts.json";
 require("./lib/i18nSetup");
 
 main().catch((err) => console.error("Error!", err));
@@ -27,9 +27,9 @@ async function main() {
   }
 
   // Init our models. Collections Users and Adverts will delete and loade
-  const adsResult = await initAds(ADS_JSON);
+  const adsResult = await initAds(ADVERTS_JSON);
   console.log(
-    `\nAdverts: Deleted ${adsResult.deletedCount}, loaded ${adsResult.loadedCount} from ${ADS_JSON}`
+    `\nAdverts: Deleted ${adsResult.deletedCount}, loaded ${adsResult.loadedCount} from ${ADVERTS_JSON}`
   );
 
   const usersResult = await initUsers();

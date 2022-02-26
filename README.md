@@ -4,16 +4,16 @@
 
 ### REGISTER
 
-Como usuario anónimo desde la zona pública, quiero poder darme de alta en el sistema para poder así autenticarme y poder realizar funciones como miembro de la plataforma indicando mi nombre de usuario, dirección de e-mail y contraseña de acceso.
+As an anonymous user from the public area, I want to be able to register in the system in order to be able to authenticate myself and be able to perform functions as a member of the platform by indicating my username, e-mail address and access password.
 
 ### LOGIN
 
-Como usuario anónimo quiero poder hacer login en la plataforma para acceder a la zona privada y así poder acceder a todas las funcionalidades de la misma.
+As an anonymous user I want to be able to log in to the platform to access the private area and thus be able to access all its features.
 
 ### RECOVER PASSWORD
 
-Como usuario anónimo quiero poder recuperar mi contraseña por si la olvido para poder así volver a hacer login en la zona privada.
+As an anonymous user I want to be able to recover my password in case I forget it so that I can log in again in the private area.
 
 ### LOGOUT
 
-Salir.
+Leave.

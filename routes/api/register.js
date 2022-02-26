@@ -10,7 +10,7 @@ const router = express.Router();
 const { Users } = require("../../models/Users");
 
 // POST /register
-router.post("/", async (req, res, next) => {
+router.post("/register", async (req, res, next) => {
   try {
     const name = req.body.name;
     const email = req.body.email;
