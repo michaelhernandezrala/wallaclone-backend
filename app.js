@@ -36,9 +36,9 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(i18n.init);
 
 // API
-app.use("/api/register", require("./routes/api/register"));
-app.use("/api/login", require("./routes/api/login"));
-//app.use("/api/ads", jwtAuth(), require("./routes/api/ads"));
+app.post("/api/register", require("./routes/api/register"));
+app.post("/api/login", require("./routes/api/login"));
+//app.use("/api/adverts", jwtAuth(), require("./routes/api/ads"));
 
 // Global Template variables
 app.locals.title = "Wallaclone";
@@ -46,8 +46,8 @@ app.locals.typeUser = "anonymous"; // Luego se cambiará a userWallaclone cuando
 
 // Web
 app.use("/", require("./routes/index"));
-app.use("/register", require("./routes/api/register"));
-app.use("/login", require("./routes/api/login"));
+app.post("/register", require("./routes/api/register"));
+app.post("/login", require("./routes/api/login"));
 //app.use("/adverts", require("./routes/adverts"));
 
 // catch 404 and forward to error handler
@@ -91,6 +91,7 @@ app.use(function (err, req, res, next) {
   res.render("error");
 });
 
+// Function isAPI
 function isAPI(req) {
   return req.originalUrl.indexOf("/api") === 0;
 }

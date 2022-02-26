@@ -22,4 +22,8 @@ router.get("/", async function (req, res, next) {
   }
 });
 
+router.post("/register", (req, res) => { 
+  res.render("register");
+});
+
 module.exports = router;

@@ -14,25 +14,27 @@
                         <%- messages.success %>
                     </p>
                     <% } %>
-
-                        <form action="/register" method="post" name="form1">
-                            <div class="form-group">
-                                <label for="name">__(Name)</label>
-                                <input type="name" name="name" class="form-control" id="name"
-                                    aria-describedby="nameHelp" placeholder="Enter name" value="" required />
-                            </div>
-                            <div class="form-group">
-                                <label for="">__(Email)</label>
-                                <input type="email" name="email" class="form-control" id="email"
-                                    aria-describedby="emailHelp" placeholder="Enter email" value="" required />
-                            </div>
-                            <div class="form-group">
-                                <label for="password">__(Password)</label>
-                                <input type="password" name="password" class="form-control" id="password"
-                                    aria-describedby="emailHelp" placeholder="*********" value="" required />
-                            </div>
-                            <input type="submit" class="btn btn-primary" value="register" />
-                            <a href="../routes/api/register.js" class="btn btn-success ml-2">Sign up</a>
-                        </form>
+                        <div class="col-xs-8 col-xs-offset-2">
+                            <h2 class="text-center">_(Sing up into Wallaclone)</h2>
+                            <form action="/register" method="post" name="form1">
+                                <div class="form-group">
+                                    <label for="name">__(Name)</label>
+                                    <input type="name" name="name" class="form-control" id="name"
+                                        aria-describedby="nameHelp" placeholder="Enter name" value="" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="">__(Email)</label>
+                                    <input type="email" name="email" class="form-control" id="email"
+                                        aria-describedby="emailHelp" placeholder="Enter email" value="" required />
+                                </div>
+                                <div class="form-group">
+                                    <label for="password">__(Password)</label>
+                                    <input type="password" name="password" class="form-control" id="password"
+                                        aria-describedby="emailHelp" placeholder="*********" value="" required />
+                                </div>
+                                <input type="submit" class="btn btn-primary" value="Register" />
+                                <a href="../routes/api/register.js" class="btn btn-success ml-2">Sign up</a>
+                            </form>
+                        </div>
 
                         <% include _footer %>
