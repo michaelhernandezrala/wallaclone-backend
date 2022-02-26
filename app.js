@@ -52,7 +52,7 @@ app.use("/login", require("./routes/api/login"));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
-  const err = new Error(__("not_found"));
+  const err = new Error(__("Not_found"));
   err.status = 404;
   next(err);
 });
