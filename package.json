@@ -1,58 +1,58 @@
 {
-  "name": "registerbackend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "start": "node ./bin/www",
-    "dev": "DEBUG=wallaclone:* nodemon ./bin/www",
-    "installDB": "node initDb.js",
-    "hints": "eslint . || true"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "async": "^3.2.3",
-    "bcryptjs": "^2.4.3",
-    "body-parser": "^1.19.2",
-    "cookie-parser": "^1.4.6",
-    "cote": "^1.0.3",
-    "dotenv": "^16.0.0",
-    "ejs": "^3.1.6",
-    "express": "^4.17.3",
-    "fs": "^0.0.1-security",
-    "fs-extra": "^10.0.0",
-    "hash.js": "^1.1.7",
-    "hints": "^1.1.0",
-    "i18n": "^0.14.1",
-    "jsonwebtoken": "^8.5.1",
-    "mongodb": "^4.4.0",
-    "mongoose": "^6.2.2",
-    "morgan": "^1.10.0",
-    "nodejs": "^0.0.0",
-    "nodemon": "^2.0.15",
-    "path": "^0.12.7",
-    "readline": "^1.3.0",
-    "xmp-js": "^0.0.5"
-  },
-  "devDependencies": {
-    "eslint": "^4.10.0",
-    "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-import": "^2.8.0",
-    "eslint-plugin-node": "^5.2.1",
-    "eslint-plugin-promise": "^3.6.0",
-    "eslint-plugin-standard": "^3.0.1"
-  },
-  "description": "",
-  "directories": {
-    "lib": "lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/michaelhernandezrala/wallaclone-backend.git"
-  },
-  "bugs": {
-    "url": "https://github.com/michaelhernandezrala/wallaclone-backend/issues"
-  },
-  "homepage": "https://github.com/michaelhernandezrala/wallaclone-backend#readme"
+    "name": "registerbackend",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "start": "node ./bin/www",
+        "dev": "DEBUG=wallaclone:* nodemon ./bin/www",
+        "installDB": "node initDb.js",
+        "hints": "eslint . || true"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "async": "^3.2.3",
+        "bcryptjs": "^2.4.3",
+        "body-parser": "^1.19.2",
+        "cookie-parser": "^1.4.6",
+        "cote": "^1.0.3",
+        "dotenv": "^16.0.0",
+        "ejs": "^2.7.4",
+        "express": "^4.17.3",
+        "express-async-handler": "^1.2.0",
+        "express-session": "^1.17.2",
+        "express-validator": "^6.14.0",
+        "fs": "^0.0.1-security",
+        "fs-extra": "^10.0.0",
+        "hash.js": "^1.1.7",
+        "hints": "^1.1.0",
+        "http": "^0.0.1-security",
+        "http-errors": "^2.0.0",
+        "i18n": "^0.14.1",
+        "jsonwebtoken": "^8.5.1",
+        "mongodb": "^4.4.0",
+        "mongoose": "^6.2.2",
+        "morgan": "^1.10.0",
+        "node": "^16.13.2",
+        "node-discover": "^1.2.1",
+        "nodemailer": "^6.7.2",
+        "nodemon": "^2.0.15",
+        "path": "^0.12.7",
+        "readline": "^1.3.0",
+        "router": "^1.3.6",
+        "serve-favicon": "^2.5.0"
+    },
+    "description": "",
+    "directories": {
+        "lib": "lib"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/michaelhernandezrala/wallaclone-backend.git"
+    },
+    "bugs": {
+        "url": "https://github.com/michaelhernandezrala/wallaclone-backend/issues"
+    },
+    "homepage": "https://github.com/michaelhernandezrala/wallaclone-backend#readme"
 }
