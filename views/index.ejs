@@ -1,11 +1,11 @@
 <!-- index.ejs -->
 <% include _header %>
-  
-  <xmp theme="united" style="display:none;">
-    <%- readme %>
-  </xmp>
+  <% include loader %>
 
+    <xmp theme="united" style="display:none;">
+      <%- readme %>
+    </xmp>
 
-  <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
+    <script src="http://strapdownjs.com/v/0.2/strapdown.js"></script>
 
-  <% include _footer %>
+    <% include _footer %>
