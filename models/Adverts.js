@@ -16,7 +16,7 @@ const thumbnailRequester = new cote.Requester(
   { log: false, statusLogsEnabled: false }
 );
 
-const adsSchema = mongoose.Schema({
+const advertsSchema = mongoose.Schema({
   name: { type: String, index: true },
   sell: { type: Boolean, index: true },
   price: { type: Number, index: true },
@@ -25,34 +25,34 @@ const adsSchema = mongoose.Schema({
 });
 
 // lista de tags permitidos
-adsSchema.statics.allowedTags = function () {
+advertsSchema.statics.allowedTags = function () {
   return ["work", "lifestyle", "motor", "mobile"];
 };
 
 /**
  * carga un json de anuncios
  */
-adsSchema.statics.cargaJson = async function (fichero) {
+advertsSchema.statics.cargaJson = async function (fichero) {
   const data = await fsPromises.readFile(fichero, { encoding: "utf8" });
 
   if (!data) {
     throw new Error(fichero + " está vacio!");
   }
 
-  const ads = JSON.parse(data).ads;
+  const adverts = JSON.parse(data).adverts;
 
-  for (var i = 0; i < ads.length; i++) {
-    await new Ads(ads[i]).save();
+  for (var i = 0; i < adverts.length; i++) {
+    await new Adverts(adverts[i]).save();
   }
 
-  return ads.length;
+  return adverts.length;
 };
 
-adsSchema.statics.createRecord = function (nuevo, cb) {
-  new Ads(nuevo).save(cb);
+advertsSchema.statics.createRecord = function (nuevo, cb) {
+  new Adverts(nuevo).save(cb);
 };
 
-adsSchema.statics.list = async function (
+advertsSchema.statics.list = async function (
   filters,
   startRow,
   numRows,
@@ -60,7 +60,7 @@ adsSchema.statics.list = async function (
   includeTotal,
   cb
 ) {
-  const query = Ads.find(filters);
+  const query = Adverts.find(filters);
   query.sort(sortField);
   query.skip(startRow);
   query.limit(numRows);
@@ -82,7 +82,7 @@ adsSchema.statics.list = async function (
   return result;
 };
 
-adsSchema.methods.setFoto = async function ({
+advertsSchema.methods.setFoto = async function ({
   path: imagePath,
   originalname: imageOriginalName,
 }) {
@@ -90,7 +90,7 @@ adsSchema.methods.setFoto = async function ({
 
   const imagePublicPath = path.join(
     __dirname,
-    "../public/images/anuncios",
+    "../public/images/adverts",
     imageOriginalName
   );
   await fs.copy(imagePath, imagePublicPath);
@@ -102,6 +102,6 @@ adsSchema.methods.setFoto = async function ({
   thumbnailRequester.send({ type: "createThumbnail", image: imagePublicPath });
 };
 
-var Ads = mongoose.model("Ads", adsSchema);
+var Adverts = mongoose.model("Adverts", advertsSchema);
 
-module.exports = Ads;
+module.exports = Adverts;
