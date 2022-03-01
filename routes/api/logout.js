@@ -1,5 +1,5 @@
 /**
- * logiout.js
+ * logout.js
  * Module to logout Wallaclone
  */
 "use strict";

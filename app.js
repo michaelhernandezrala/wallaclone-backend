@@ -81,7 +81,7 @@ app.use(function (err, req, res, next) {
     return;
   }
 
-  // ...y si no respondo con HTML...
+  // ...and else replay with HTML...
 
   // set locals, only providing error in development
   res.locals.message = err.message;
