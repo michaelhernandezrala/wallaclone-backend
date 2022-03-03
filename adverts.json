@@ -1,10 +1,10 @@
 {
-    "ads": [
+    "adverts": [
         {
             "name": "Bicicleta",
             "sell": true,
             "price": 23015,
-            "phooto": "bici.jpg",
+            "photo": "bici.jpg",
             "tags": ["lifestyle", "motor"]
         }, {
             "name": "iPhone 3GS",

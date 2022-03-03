@@ -20,5 +20,9 @@
 	"Sort by price descending": "Sort by price descending",
 	"With mobile tag": "With mobile tag",
 	"Back to home": "Back to home",
-	"Not_found": "Not_found"
+	"Not_found": "Not_found",
+	"Private": "Private",
+	"Logout": "Logout",
+	"Login": "Login",
+	"Register": "Register"
 }

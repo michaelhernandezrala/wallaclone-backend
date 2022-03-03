@@ -7,7 +7,7 @@
 require("dotenv").config();
 
 const { askUser } = require("./lib/utils");
-const { mongoose, Ads, Users } = require("./models");
+const { mongoose, Adverts, Users } = require("./models");
 const { connectMongoose } = require("./lib/connectMongoose");
 
 const ADVERTS_JSON = "./adverts.json";
@@ -44,8 +44,8 @@ async function main() {
 }
 
 async function initAds(fichero) {
-  const { deletedCount } = await Ads.deleteMany();
-  const loadedCount = await Ads.cargaJson(fichero);
+  const { deletedCount } = await Adverts.deleteMany();
+  const loadedCount = await Adverts.cargaJson(fichero);
   return { deletedCount, loadedCount };
 }
 
@@ -56,13 +56,17 @@ async function initUsers() {
       name: "userAnonymous",
       email: "user@example.com",
       typeUser: "anonymous",
-      password: Users.hashPassword("1234"), //TODO
+      password: Users.hashPassword(
+        "03ac674216f3e15c761ee1a5e255f067953623c8b388b4459e13f978d7c846f4"
+      ),
     },
     {
       name: "userWallaclone",
       email: "user2@example.com",
       typeUser: "userWallaclone",
-      password: Users.hashPassword("4321"), //TODO
+      password: Users.hashPassword(
+        "fe2592b42a727e977f055947385b709cc82b16b9a87f88c6abf3900d65d0cdc3"
+      ),
     },
   ]);
   return { deletedCount, loadedCount };

@@ -1,24 +1,25 @@
+// TODO:
 "use strict";
 
 const jwt = require("jsonwebtoken");
-const { Users } = require("../models/Users");
-class LoginController {
+const { User } = require("../models");
+class RegisterController {
   index(req, res, next) {
     res.locals.error = "";
-    res.render("login");
+    res.render("register");
   }
 
   async post(req, res, next) {
     try {
-      const { name, password } = req.body;
+      const { name, email, password } = req.body;
 
-      // look for the user into the DB
-      const user = await Users.findOne({ name });
+      // look forward the user into the DB
+      const user = await User.findOne({ name });
 
       // si no lo encuentro o no coincide la contraseña --> error
       if (!user || !(await user.comparePassword(password))) {
         res.locals.error = res.__("Invalid credentials");
-        res.render("login");
+        res.render("register");
         return;
       }
 
@@ -30,10 +31,10 @@ class LoginController {
         _id: user._id,
       };
 
-      // enviar un email al usuario
+      // enviar un email al user
       // const result = await user.enviarEmail(
       //   "Esto es el asunto",
-      //   "Bienvenido a Wallaclone"
+      //   "Bienvenido a WAllaclone"
       // );
       // console.log("Mensaje enviado:", result.messageId);
       // console.log("Ver mensaje:", result.getTestMessageUrl);
@@ -44,33 +45,45 @@ class LoginController {
     }
   }
 
-  // exit
-  logout(req, res, next) {
-    req.session.regenerate((err) => {
-      if (err) {
-        next(err);
-        return;
-      }
-      res.redirect("/");
-    });
-  }
+  //   logout(req, res, next) {
+  //     req.session.regenerate((err) => {
+  //       if (err) {
+  //         next(err);
+  //         return;
+  //       }
+  //       res.redirect("/");
+  //     });
+  //   }
 
-  // POST /api/login
+  // POST /api/register
   async postJWT(req, res, next) {
     try {
-      const { name, password } = req.body;
+      const { name, email, password } = req.body;
 
-      // buscar el usuario en la BD
-      const user = await Users.findOne({ name });
+      // look fordward the user into the DB
+      const user = await User.findOne({ name });
 
       // si no lo encuentro o no coincide la contraseña --> error
-      if (!user || !(await user.comparePassword(password))) {
-        res.json({ error: __("Invalid credentials") });
+
+      if (!user) {
+        res.json({
+          ok: false,
+          error:
+            "This username exist into the DB. You must choose another name.",
+        });
         return;
       }
 
-      // si el usuario existe y valida la contraseña
-      // crear un JWT con el _id del usuario dentro
+      if (!email) {
+        res.json({
+          ok: false,
+          error: "This email exist into the DB. You must choose another email.",
+        });
+        return;
+      }
+
+      // si el user existe y valida la contraseña
+      // crear un JWT con el _id del user dentro
       jwt.sign(
         { _id: user._id },
         process.env.JWT_SECRET,
@@ -92,4 +105,4 @@ class LoginController {
   }
 }
 
-module.exports = LoginController;
+module.exports = RegisterController;

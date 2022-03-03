@@ -16,7 +16,7 @@
                     <% } %>
                         <div class="col-xs-8 col-xs-offset-2">
                             <h2 class="text-center">_(Sing up into Wallaclone)</h2>
-                            <form action="/register" method="post" name="form1">
+                            <form action="../routes/api/register.js" method="post" name="form1">
                                 <div class="form-group">
                                     <label for="name">__(Name)</label>
                                     <input type="name" name="name" class="form-control" id="name"
@@ -33,7 +33,7 @@
                                         aria-describedby="emailHelp" placeholder="*********" value="" required />
                                 </div>
                                 <input type="submit" class="btn btn-primary" value="Register" />
-                                <a href="../routes/api/register.js" class="btn btn-success ml-2">Sign up</a>
+                                <!-- <a href="/register" class="btn btn-success ml-2">Sign up</a> -->
                             </form>
                         </div>
 

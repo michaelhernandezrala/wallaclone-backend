@@ -4,11 +4,15 @@
  */
 "use strict";
 
+var createError = require("http-errors");
 const express = require("express");
 const path = require("path");
 const logger = require("morgan");
 const cookieParser = require("cookie-parser");
 const bodyParser = require("body-parser");
+
+const loginController = require("./controllers/LoginController");
+const registerController = require("./controllers/RegisterControler");
 const jwtAuth = require("./lib/jwtAuth");
 
 require("dotenv").config(); // The environment variables are initialized from the file .env
@@ -28,6 +32,7 @@ app.set("view engine", "ejs");
 if (process.env.LOG_FORMAT !== "nolog") {
   app.use(logger(process.env.LOG_FORMAT || "dev"));
 }
+
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(cookieParser());
@@ -35,19 +40,23 @@ app.use(express.static(path.join(__dirname, "public")));
 
 app.use(i18n.init);
 
-// API
-app.post("/api/register", require("./routes/api/register"));
-app.post("/api/login", require("./routes/api/login"));
-//app.use("/api/adverts", jwtAuth(), require("./routes/api/ads"));
-
 // Global Template variables
 app.locals.title = "Wallaclone";
 app.locals.typeUser = "anonymous"; // Luego se cambiará a userWallaclone cuando se trate de un usuario de la plataforma
 
+// API
+app.post("/api/register", require("./routes/api/register"));
+
+// app.post("/api/login", loginController.index);
+// app.get("/api/logout", loginController.logout);
+// app.get("/api/login", loginController.postJWT);
+
+//app.use("/api/adverts", jwtAuth(), require("./routes/api/adverts"));
+
 // Web
 app.use("/", require("./routes/index"));
 app.post("/register", require("./routes/api/register"));
-app.post("/login", require("./routes/api/login"));
+
 //app.use("/adverts", require("./routes/adverts"));
 
 // catch 404 and forward to error handler
