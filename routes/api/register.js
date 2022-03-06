@@ -9,7 +9,7 @@ const jwt = require('jsonwebtoken');
 const router = express.Router();
 const { User } = require('../../models');
 
-// POST /api/authenticate
+// POST /api/register
 router.post('/', async (req, res, next) => {
   try {
     const name = req.body.name;
@@ -26,7 +26,6 @@ router.post('/', async (req, res, next) => {
       email: email,
       password: hashedPassword,
     });
-    console.log(user[0]);
     res.json({
       _id: user[0]._id,
       name: user[0].name,

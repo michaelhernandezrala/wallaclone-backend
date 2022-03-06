@@ -2,31 +2,33 @@
  * login.js
  * Module to login into Wallaclone
  */
-"use strict";
+'use strict';
 
-const express = require("express");
-const jwt = require("jsonwebtoken");
+const express = require('express');
+const jwt = require('jsonwebtoken');
 const router = express.Router();
-const { User } = require("../../models");
+const { User } = require('../../models');
 
 // POST /auth/login
-router.post("/", async (req, res, next) => {
+router.post('/', async (req, res, next) => {
   try {
-    const name = req.body.name;
-    //const email = req.body.email;
+    const email = req.body.email;
     const password = req.body.password;
 
+    console.log(req.body);
+    console.log('backend', email, password);
     const hashedPassword = User.hashPassword(password);
 
     const user = await User.findOne({
-      name: name,
-      //email: email,
+      email: email,
       password: hashedPassword,
     });
 
+    console.log(user);
+
     if (!user) {
       // Credentials ok
-      res.json({ ok: false, error: "Invalid credentials." });
+      res.json({ ok: false, error: 'Invalid credentials.' });
       return;
     }
 

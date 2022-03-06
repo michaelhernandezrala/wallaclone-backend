@@ -44,7 +44,7 @@ app.locals.title = 'Wallaclone';
 
 // API v1
 app.use('/api/register', require('./routes/api/register'));
-app.use('/api/login', require('./routes/api/authenticate'));
+app.use('/api/login', require('./routes/api/login'));
 app.use('/api/adverts', require('./routes/api/adverts'));
 //app.use("/api/ads", jwtAuth(), require("./routes/api/ads"));
 
