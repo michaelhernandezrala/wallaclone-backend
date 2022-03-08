@@ -24,10 +24,11 @@ router.post('/', async (req, res, next) => {
       password: hashedPassword,
     });
 
-    console.log(user);
+    console.log('user', user);
 
     if (!user) {
       // Credentials ok
+      console.log('no existe');
       res.json({ ok: false, error: 'Invalid credentials.' });
       return;
     }
