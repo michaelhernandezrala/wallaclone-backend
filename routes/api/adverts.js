@@ -3,13 +3,12 @@
  * Module to show all the adverts
  */
 'use strict';
-const express = require("express");
+const express = require('express');
 const router = express.Router();
 const Advert = require('../../models/Adverts');
 
 // GET api/adverts
-router.get("/", async (req, res, next) => {
-
+router.get('/', async (req, res, next) => {
   try {
     const name = req.query.name;
     const price = req.query.price;
@@ -20,8 +19,8 @@ router.get("/", async (req, res, next) => {
     const filters = {};
 
     const adverts = await Advert.list(filters, skip, limit, select, sort);
-    console.log(adverts)
-    res.json({ results: adverts })
+    console.log(adverts);
+    res.json({ results: adverts });
   } catch (err) {
     next(err);
   }
@@ -32,8 +31,9 @@ router.get("/", async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   try {
     const _id = req.params.id;
-
+    console.log('id', _id);
     const advert = await Advert.find({ _id: _id });
+    console.log('backend', advert);
     res.json({ result: advert });
   } catch (err) {
     next(err);
@@ -44,12 +44,12 @@ router.get('/:id', async (req, res, next) => {
 // DELETE /api/adverts: id
 router.delete('/:id', async (req, res, next) => {
   try {
-      const _id = req.params.id;
+    const _id = req.params.id;
 
-      await Advert.deleteOne({_id: _id });
-      res.json();
+    await Advert.deleteOne({ _id: _id });
+    res.json();
   } catch (err) {
-      next(err);
+    next(err);
   }
 });
 
@@ -57,24 +57,26 @@ router.delete('/:id', async (req, res, next) => {
 // PUT /api/adverts:id
 router.put('/:id', async (req, res, next) => {
   try {
-      const _id = req.params.id;
-      const advertData = req.body;
+    const _id = req.params.id;
+    const advertData = req.body;
 
-      const advertUpdate = await Advert.findOneAndUpdate({ _id: _id }, advertData, {
-          new: true // Devuelve estado final
-      });
-
-      if(!advertUpdate){
-          res.status(404).json({ error: 'not found'})
-          return;
+    const advertUpdate = await Advert.findOneAndUpdate(
+      { _id: _id },
+      advertData,
+      {
+        new: true, // Devuelve estado final
       }
+    );
 
-      res.json({ result: advertUpdate });
+    if (!advertUpdate) {
+      res.status(404).json({ error: 'not found' });
+      return;
+    }
+
+    res.json({ result: advertUpdate });
   } catch (err) {
-      next(err);
+    next(err);
   }
 });
-
-
 
 module.exports = router;

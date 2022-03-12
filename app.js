@@ -9,16 +9,18 @@ const jwtAuth = require('./lib/jwtAuth');
 
 const cors = require('cors');
 const app = express();
-require("dotenv").config(); 
+require('dotenv').config();
 
 const corsOptions = {
   origin: '*',
   credentials: true, //access-control-allow-credentials:true
   optionSuccessStatus: 200,
 };
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
 app.use(cors(corsOptions));
-require("./models");
+require('./models');
 
 require('dotenv').config(); // inicializamos variables de entrono desde el fichero .env
 
@@ -48,7 +50,7 @@ app.locals.title = 'Wallaclone';
 app.use('/api/register', require('./routes/api/register'));
 app.use('/api/login', require('./routes/api/login'));
 app.use('/api/adverts', require('./routes/api/adverts'));
-app.use("/api/new-advert", require("./routes/api/new-advert"))
+app.use('/api/new-advert', require('./routes/api/new-advert'));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
