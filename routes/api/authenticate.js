@@ -15,7 +15,6 @@ router.post('/', async (req, res, next) => {
     const name = req.body.name;
     const email = req.body.email;
     const password = req.body.password;
-    console.log(name, email, password);
     const hashedPassword = User.hashPassword(password);
 
     // Check for user
@@ -24,8 +23,6 @@ router.post('/', async (req, res, next) => {
       email: email,
       password: hashedPassword,
     });
-
-    console.log(user);
 
     // Validate name, email & password
     if (user && !user.name) {

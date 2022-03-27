@@ -7,15 +7,14 @@ const Advert = require('../../models/Adverts');
 // Crear nuevos anuncios
 router.post('/', async (req, res, next) => {
   try {
-      const advertData = req.body;
-      const advert = new Advert (advertData); // Crear anuncio en memoria
-      const advertCreated = await advert.save();
-      res.status(201).json({ result: advertCreated});
-  } catch(err) {
-      next(err)
+    const advertData = req.body;
+    const advert = new Advert(advertData); // Crear anuncio en memoria
+    const advertCreated = await advert.save();
+    res.status(201).json({ result: advertCreated });
+  } catch (err) {
+    next(err);
   }
 });
 
-
 // Exportar
-module.exports = router
+module.exports = router;

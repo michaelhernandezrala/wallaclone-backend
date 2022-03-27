@@ -10,16 +10,13 @@ const Advert = require('../../models/Adverts');
 // GET api/adverts
 router.get('/', async (req, res, next) => {
   try {
-    const name = req.query.name;
-    const price = req.query.price;
-    const skip = parseInt(req.query.skip);
-    const limit = parseInt(req.query.limit);
+    console.log('querys', req.query);
+    const skip = parseInt(req.query._skip);
+    const limit = parseInt(req.query._limit);
     const select = req.query.select;
-    const sort = req.query.sort;
-    const filters = {};
-
-    const adverts = await Advert.list(filters, skip, limit, select, sort);
-    console.log(adverts);
+    const sort = req.query._sort;
+    const order = req.query._order;
+    const adverts = await Advert.list(skip, limit, select, sort, order);
     res.json({ results: adverts });
   } catch (err) {
     next(err);
@@ -31,9 +28,7 @@ router.get('/', async (req, res, next) => {
 router.get('/:id', async (req, res, next) => {
   try {
     const _id = req.params.id;
-    console.log('id', _id);
     const advert = await Advert.find({ _id: _id });
-    console.log('backend', advert);
     res.json({ result: advert });
   } catch (err) {
     next(err);

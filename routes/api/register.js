@@ -15,10 +15,7 @@ router.post('/', async (req, res, next) => {
     const name = req.body.name;
     const email = req.body.email;
     const password = req.body.password;
-    console.log(name, email, password);
     const hashedPassword = User.hashPassword(password);
-
-    console.log('estoy en el backend', name, email, password);
 
     // Check for user
     const user = await User.insertMany({

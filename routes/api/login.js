@@ -14,9 +14,6 @@ router.post('/', async (req, res, next) => {
   try {
     const email = req.body.email;
     const password = req.body.password;
-
-    console.log(req.body);
-    console.log('backend', email, password);
     const hashedPassword = User.hashPassword(password);
 
     const user = await User.findOne({
@@ -24,11 +21,8 @@ router.post('/', async (req, res, next) => {
       password: hashedPassword,
     });
 
-    console.log('user', user);
-
     if (!user) {
       // Credentials ok
-      console.log('no existe');
       res.json({ ok: false, error: 'Invalid credentials.' });
       return;
     }
