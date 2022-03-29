@@ -1,11 +1,12 @@
-/**
- * adverts.js
- * Module to show all the adverts
- */
+
+ // Module to show all the adverts
+
 'use strict';
 const express = require('express');
 const router = express.Router();
 const Advert = require('../../models/Adverts');
+
+
 
 // GET api/adverts
 router.get('/', async (req, res, next) => {
@@ -22,6 +23,7 @@ router.get('/', async (req, res, next) => {
     next(err);
   }
 });
+
 
 // Detail
 // GET /api/adverts:id
