@@ -51,6 +51,7 @@ app.use('/api/register', require('./routes/api/register'));
 app.use('/api/login', require('./routes/api/login'));
 app.use('/api/adverts', require('./routes/api/adverts'));
 app.use('/api/new-advert', require('./routes/api/new-advert'));
+//app.use('/api/tags', require('./routes/api/new-advert/tags'));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
