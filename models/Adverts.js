@@ -67,6 +67,7 @@ advertSchema.statics.list = function (skip, limit, select, sort, order) {
   }
 
   const query = Adverts.find();
+
   query.skip(skip);
   query.limit(limit);
   query.select(select);

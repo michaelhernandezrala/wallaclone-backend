@@ -10,7 +10,6 @@ const Advert = require('../../models/Adverts');
 // GET api/adverts
 router.get('/', async (req, res, next) => {
   try {
-    console.log('querys', req.query);
     const skip = parseInt(req.query._skip);
     const limit = parseInt(req.query._limit);
     const select = req.query.select;
