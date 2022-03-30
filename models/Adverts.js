@@ -26,14 +26,12 @@ const advertSchema = mongoose.Schema(
   {}
 );
 
-// lista de tags permitidos
+// Lista de tags permitidos
 advertSchema.statics.allowedTags = function () {
   return ['work', 'lifestyle', 'motor', 'mobile'];
 };
 
-/**
- * carga un json de anuncios
- */
+//Carga un json de anuncios
 advertSchema.statics.loadJSON = async function (file) {
   const data = await fsPromises.readFile(file, { encoding: 'utf8' });
 
