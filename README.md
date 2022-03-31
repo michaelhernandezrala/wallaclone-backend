@@ -1,4 +1,4 @@
-# Wallaclone-backend
+# Wallaclone-Backend
 
 ## Installation of dependencies
 
@@ -8,7 +8,9 @@
 
 Review lib/connectMongoose.js to set database configuration
 
-## Init database (Initialize the DB with 8 ads)
+## Init database 
+
+Initialize the DB with 8 default ads
 
 ` npm run initDB `
 
